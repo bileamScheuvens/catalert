@@ -2,7 +2,9 @@ from telegram import Bot
 import asyncio
 import requests
 from io import BytesIO
+import os
 import yaml
+from datetime import datetime
 from shelters import KAShelter, MAShelter, BNShelter
 
 SOURCES = [
@@ -24,8 +26,6 @@ async def send_image(recipient, img):
 
 async def run():
     async def _send_update(cats, shelter_name, template):
-        if cats is None:
-            return
         for cat_name, img_url in cats.items():
             plural_conditional = "sind" if '&' in cat_name or 'und' in cat_name else "ist"
             img = requests.get(img_url).content
@@ -35,8 +35,14 @@ async def run():
 
     for shelter in SOURCES:
         changes = shelter.update()
-        await _send_update(changes["new_cats"], shelter.name, "{cat_name} {pl_cond} frisch frei zur Adoption von {shelter_name} 🐱!")
-        await _send_update(changes["adopted_cats"], shelter.name, "{cat_name} {pl_cond} aus {shelter_name} adoptiert! Alles Gute im neuen Zuhause 🚀!")
+        new_cats = changes["new_cats"]
+        adopted_cats = changes["adopted_cats"]
+        with open(os.path.join("logs", "log.txt"), "a") as f:
+                f.write(f"{datetime.now()} - {shelter.name}: ++{' '.join(new_cats.keys())} --{' '.join(adopted_cats.keys())} \n") if any(changes.values()) else None
+        if new_cats:
+            await _send_update(new_cats, shelter.name, "{cat_name} {pl_cond} frisch frei zur Adoption von {shelter_name} 🐱!")
+        if adopted_cats:
+            await _send_update(adopted_cats, shelter.name, "{cat_name} {pl_cond} aus {shelter_name} adoptiert! Alles Gute im neuen Zuhause 🚀!")
 
 
 if __name__ == "__main__":

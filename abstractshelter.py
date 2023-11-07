@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import os
 import yaml
+from datetime import datetime
 from abc import ABC, abstractmethod
 
 class AbstractShelter(ABC):
@@ -29,13 +30,19 @@ class AbstractShelter(ABC):
         pass
 
     def update(self):
-        cached_cats = self.read_cache()
-        new_cats = self.get_cats()
-        self.update_cache(new_cats)
         def _filtercommon(a, b):
             if a is None or b is None:
                 return a
             return {key: a[key] for key in set(a.keys()) - set(b.keys())}
-        return {"new_cats": _filtercommon(new_cats, cached_cats), "adopted_cats": _filtercommon(cached_cats, new_cats)}
+        
+        try:
+            cached_cats = self.read_cache()
+            new_cats = self.get_cats()
+            self.update_cache(new_cats)
+            return {"new_cats": _filtercommon(new_cats, cached_cats), "adopted_cats": _filtercommon(cached_cats, new_cats)}
+        except Exception as e:
+            with open(os.path.join("logs", "error.txt"), "a") as f:
+                f.write(f"Error in {self.name} at {datetime.now()}: {e}\n")
+            return {"new_cats": {}, "adopted_cats": {}}
 
 
