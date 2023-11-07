@@ -1,6 +1,7 @@
-from abstractshelter import AbstractShelter
 import requests
 from bs4 import BeautifulSoup
+
+from abstractshelter import AbstractShelter
 
 
 class KAShelter(AbstractShelter):
