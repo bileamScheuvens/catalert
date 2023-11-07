@@ -6,12 +6,16 @@ from io import BytesIO
 from telegram import Bot
 from datetime import datetime
 
-from shelters import KAShelter, MAShelter, BNShelter
+from shelters import *
 
 SOURCES = [
     KAShelter(),
     MAShelter(),
     BNShelter(),
+    HNShelter(),
+    KoelnShelter(),
+    SBShelter(),
+    LUShelter(),
 ]
 
 with open("recipients.txt") as f:
@@ -32,9 +36,9 @@ async def run():
     async def _send_update(cats, shelter_name, template):
         for cat_name, img_url in cats.items():
             plural_conditional = (
-                "sind" if "&" in cat_name or "und" in cat_name else "ist"
+                "sind" if any(x in cat_name for x in ["&", "und", ","]) else "ist"
             )
-            img = requests.get(img_url).content
+            img_response = requests.get(img_url)
             for recipient in RECIPIENTS:
                 await send_message(
                     recipient,
@@ -44,23 +48,27 @@ async def run():
                         shelter_name=shelter_name,
                     ),
                 )
-                await send_image(recipient, img)
+                if img_response.status_code == 200:
+                    await send_image(recipient, img_response.content)
 
     for shelter in SOURCES:
         changes = shelter.update()
         new_cats = changes["new_cats"]
         adopted_cats = changes["adopted_cats"]
-        with open(os.path.join("logs", "log.txt"), "a") as f:
-            f.write(
-                f"{datetime.now()} - {shelter.name}: ++{' '.join(new_cats.keys())} --{' '.join(adopted_cats.keys())} \n"
-            ) if any(changes.values()) else None
+        def _log(prefix, cats):
+            with open(os.path.join("logs", "log.txt"), "a") as f:
+                f.write(
+                    f"{datetime.now()} - {shelter.name}: {prefix} {cats} \n"
+                )
         if new_cats:
+            _log("++", " & ".join(new_cats.keys()))
             await _send_update(
                 new_cats,
                 shelter.name,
                 "{cat_name} {pl_cond} frisch frei zur Adoption von {shelter_name} 🐱!",
             )
         if adopted_cats:
+            _log("--", " & ".join(adopted_cats.keys()))
             await _send_update(
                 adopted_cats,
                 shelter.name,
