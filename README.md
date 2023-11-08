@@ -10,4 +10,4 @@ To extend list of shelters, inherit AbstractShelter, set name and url and implem
 
 Localization is not implemented, but as simple as keeping track of recipient language and editing a few string templates. 
 
-![Alt text](image.png)
+![Example Notification](example.png)
