@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from abc import ABC, abstractmethod
+from utils import log_error
 
 
 class AbstractShelter(ABC):
@@ -41,13 +42,6 @@ class AbstractShelter(ABC):
                 return a
             return {key: a[key] for key in set(a.keys()) - set(b.keys())}
 
-        cached_cats = self.read_cache()
-        new_cats = self.get_cats()
-        self.update_cache(new_cats)
-        return {
-            "new_cats": _filtercommon(new_cats, cached_cats),
-            "adopted_cats": _filtercommon(cached_cats, new_cats),
-        }
         try:
             cached_cats = self.read_cache()
             new_cats = self.get_cats()
@@ -57,6 +51,5 @@ class AbstractShelter(ABC):
                 "adopted_cats": _filtercommon(cached_cats, new_cats),
             }
         except Exception as e:
-            with open(os.path.join("logs", "error.txt"), "a") as f:
-                f.write(f"{datetime.now()}: Error in {self.name} - {e}\n")
+            log_error(e, self.name)
             return {"new_cats": {}, "adopted_cats": {}}

@@ -4,7 +4,9 @@ import asyncio
 import requests
 from io import BytesIO
 from telegram import Bot
-from datetime import datetime
+from telegram.error import BadRequest
+from utils import log, log_error
+from ssl import SSLWantReadError
 
 from shelters import *
 
@@ -23,13 +25,15 @@ with open("recipients.txt") as f:
 
 bot = Bot(token=yaml.safe_load(open("secrets.yaml"))["bot_token"])
 
-
 async def send_message(recipient, message):
     await bot.send_message(chat_id=recipient, text=message)
 
 
-async def send_image(recipient, img):
-    await bot.send_photo(chat_id=recipient, photo=BytesIO(img))
+async def send_image(recipient, img, caption):
+    try:
+        await bot.send_photo(chat_id=recipient, photo=BytesIO(img), caption=caption)
+    except SSLWantReadError as e:
+        log_error(f"{recipient}: {e}", "SEND_IMAGE")
 
 
 async def run():
@@ -40,39 +44,38 @@ async def run():
             )
             img_response = requests.get(img_url)
             for recipient in RECIPIENTS:
-                await send_message(
-                    recipient,
-                    template.format(
-                        cat_name=cat_name,
-                        pl_cond=plural_conditional,
-                        shelter_name=shelter_name,
-                    ),
+                message = template.format(
+                    cat_name=cat_name,
+                    pl_cond=plural_conditional,
+                    shelter_name=shelter_name,
                 )
-                if img_response.status_code == 200:
-                    await send_image(recipient, img_response.content)
+                try:
+                    if img_response.status_code == 200:
+                        await send_image(recipient, img_response.content, caption=message)
+                    else:
+                        await send_message(recipient, message)
+                except BadRequest as e:
+                    log_error(f"ID INVALID {recipient}, {e}", "GLOBAL")
+
 
     for shelter in SOURCES:
         changes = shelter.update()
         new_cats = changes["new_cats"]
         adopted_cats = changes["adopted_cats"]
-        def _log(prefix, cats):
-            with open(os.path.join("logs", "log.txt"), "a") as f:
-                f.write(
-                    f"{datetime.now()} - {shelter.name}: {prefix} {cats} \n"
-                )
+        
         if new_cats:
-            _log("++", " & ".join(new_cats.keys()))
+            log("++", " & ".join(new_cats.keys()), shelter.name)
             await _send_update(
                 new_cats,
                 shelter.name,
-                "{cat_name} {pl_cond} frisch frei zur Adoption von {shelter_name} 🐱!",
+                "{cat_name} {pl_cond} frisch frei zur Adoption von {shelter_name}! 🐱",
             )
         if adopted_cats:
-            _log("--", " & ".join(adopted_cats.keys()))
+            log("--", " & ".join(adopted_cats.keys()), shelter.name)
             await _send_update(
                 adopted_cats,
                 shelter.name,
-                "{cat_name} {pl_cond} aus {shelter_name} adoptiert! Alles Gute im neuen Zuhause 🚀!",
+                "{cat_name} {pl_cond} aus {shelter_name} adoptiert! Alles Gute im neuen Zuhause! 🚀",
             )
 
 
