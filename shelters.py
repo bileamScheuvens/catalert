@@ -42,8 +42,6 @@ class BNShelter(AbstractShelter):
         )
 
     def clean_name(self, name):
-        name = name.replace("\n", "")
-        name = name.replace("\t", "")
         name = name.split("gerne")[0]
         name = name.split(",")[0]
         name = name.split("(")[0]
@@ -53,7 +51,7 @@ class BNShelter(AbstractShelter):
         name = name.replace("Private Vermittlungshilfe", "")
         name = name.replace("als Paar", "")
         name = name.replace("nur", "")
-        return name.strip()
+        return super().clean_name(name)
 
     def get_cats(self) -> dict:
         return {
@@ -90,7 +88,7 @@ class KoelnShelter(AbstractShelter):
     
     def clean_name(self, name):
         name = name.split("(")[0]
-        return name.strip()
+        return super().clean_name(name)
 
     def get_cats(self) -> dict:
         return {cat.img.get("alt"): cat.img.get("src") for cat in self.soup.find_all("figure")}
@@ -100,10 +98,8 @@ class SBShelter(AbstractShelter):
         super().__init__("https://www.tierheim-saarbruecken.de/zuhause-gesucht/katzen", "Tierheim Saarbruecken")
     
     def clean_name(self, name):
-        name = name.replace("\n", "")
-        name = name.replace("\t", "")
         name = name.replace("!!! Notfall !!!", "")
-        return name.strip()
+        return super().clean_name(name)
 
     def get_cats(self) -> dict:
         names = [cat.get_text() for cat in self.soup.find_all("h2")]
@@ -146,8 +142,19 @@ class MUShelter(AbstractShelter):
     
     def clean_name(self, name):
         name = name.replace("'", "")
-        name = name.title()
-        return name.strip()
+        return super().clean_name(name)
     
     def get_cats(self) -> dict:
         return {cat.find("h3").get_text(): cat.find("img").get("src") for cat in self.soup.find_all(class_="tsv-tiervermittlung-animal")}
+    
+class SDLShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__("https://www.tierheim-stendal-borstel.de/unsere-katzen/", "Tierheim Stendal-Borstel")
+    
+    def clean_name(self, name) -> str:
+        name = name.replace("hat Interessenten", "")
+        return super().clean_name(name)
+
+    def get_cats(self) -> dict:
+        return {cat.get("title"): cat.find("img").get("src") for cat in self.soup.find_all(class_="grid-image")}
+        
