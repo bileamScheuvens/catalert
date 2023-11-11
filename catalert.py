@@ -20,7 +20,8 @@ SOURCES = [
     LUShelter(),
     HHShelter(),
     MZShelter(),
-    MUShelter()
+    MUShelter(),
+    SDLShelter(),
 ]
 
 with open("recipients.txt") as f:
@@ -45,7 +46,7 @@ async def run(DRY_RUN=False):
     async def _send_update(cats, shelter_name, template):
         for cat_name, img_url in cats.items():
             plural_conditional = (
-                "sind" if any(x in cat_name for x in ["&", "und", ","]) else "ist"
+                "sind" if any(x in cat_name for x in ["&", ",", "Die "]) else "ist"
             )
             img_response = requests.get(img_url)
             for recipient in RECIPIENTS:
@@ -87,4 +88,4 @@ async def run(DRY_RUN=False):
 
 
 if __name__ == "__main__":
-    asyncio.run(run(DRY_RUN=False))
+    asyncio.run(run(DRY_RUN=True))

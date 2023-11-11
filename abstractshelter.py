@@ -37,7 +37,10 @@ class AbstractShelter(ABC):
         pass
 
     def clean_name(self, name) -> str:
-        return name.strip()
+        name = name.replace("\n", "")
+        name = name.replace("\t", "")
+        name = name.replace(" und ", " & ")
+        return name.strip().title()
 
     def update(self):
         def _filtercommon(a, b):
