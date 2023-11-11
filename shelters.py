@@ -116,3 +116,18 @@ class LUShelter(AbstractShelter):
 
     def get_cats(self) -> dict:
         return {cat.img.get("alt"): cat.img.get("src") for cat in self.soup.find_all(class_="et_portfolio_image")}
+    
+class HHShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__("https://www.hamburger-tierschutzverein.de/tiervermittlung/katzen", "Hamburger Tierschutzverein")
+    
+    def get_cats(self) -> dict:
+        names = []
+        imgs = []
+        num_pages = len(self.soup.find_all(class_="page-item"))-4
+        for i in range(num_pages):
+            page_soup = BeautifulSoup(requests.get(f"{self.url}?start={i}0").content, "html.parser")
+            for cat in page_soup.find_all(class_="item-image"):
+                names.append(cat.a.get("title"))
+                imgs.append(self.url[:-23] + cat.a.img.get("src"))
+        return dict(zip(names, imgs))
