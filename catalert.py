@@ -1,4 +1,3 @@
-import os
 import yaml
 import asyncio
 import requests
@@ -7,6 +6,7 @@ from telegram import Bot
 from telegram.error import BadRequest
 from utils import log, log_error
 from ssl import SSLWantReadError
+from asyncio.exceptions import CancelledError
 
 from shelters import *
 
@@ -18,6 +18,7 @@ SOURCES = [
     KoelnShelter(),
     SBShelter(),
     LUShelter(),
+    HHShelter(),
 ]
 
 with open("recipients.txt") as f:
@@ -34,9 +35,11 @@ async def send_image(recipient, img, caption):
         await bot.send_photo(chat_id=recipient, photo=BytesIO(img), caption=caption)
     except SSLWantReadError as e:
         log_error(f"{recipient}: {e}", "SEND_IMAGE")
+    except CancelledError as e:
+        log_error(f"{recipient}: {e}", "SEND_IMAGE")
 
 
-async def run():
+async def run(DRY_RUN=False):
     async def _send_update(cats, shelter_name, template):
         for cat_name, img_url in cats.items():
             plural_conditional = (
@@ -50,7 +53,9 @@ async def run():
                     shelter_name=shelter_name,
                 )
                 try:
-                    if img_response.status_code == 200:
+                    if DRY_RUN:
+                        pass
+                    elif img_response.status_code == 200:
                         await send_image(recipient, img_response.content, caption=message)
                     else:
                         await send_message(recipient, message)
@@ -80,4 +85,4 @@ async def run():
 
 
 if __name__ == "__main__":
-    asyncio.run(run())
+    asyncio.run(run(DRY_RUN=False))
