@@ -15,3 +15,8 @@
 2023-11-11 12:00:08.597139 - Hamburger Tierschutzverein: ++ Diablo & Ella & Chili, Ruby & Luna & Nika & Lukas & Enya & Fritzi & Magnus & Tula & Nika & Bob & Flo & Tamika & Knusper & Trubadix & Alara & Sammy & Tuck, Tick und Tak & Maitei & Fleckerl & Tick, Trick & Track & Gundula & Rosi, Bienchen & Pumi & Will, Willie, Willis & William & Franz & Pencil & Maja & Mimi & Andy & Sunny & Heinzi & Lilly & Lissy & Skardi & Salino & Mona, Sophie und Lacy & Claire & Emma & Carlos & Murphy & Carmen & Toni & Edgar  & Hardi & Indira & Schnecke 
 2023-11-11 12:04:23.745400 - Hamburger Tierschutzverein: ++ Hubertus & Rainbow & Ulf 
 2023-11-11 12:07:38.491195 - Hamburger Tierschutzverein: ++ Saphira 
+2023-11-11 13:37:58.677599 - Tierheim Mainz: ++ Tila Twilight & Maja & Benjamin & Grisu & Fria & Flavio & Mik 
+2023-11-11 13:39:06.834801 - Tierheim Mainz: ++ Otto & Tamika & Heidi & Peter 
+2023-11-11 14:05:09.330341 - Tierschutzverein Muenchen: ++ Willi & Pino & Rasputin & Baltazar & Mia & Konfuzius & Pasa & Lisa & Cici & Patrick & Topolino & Snoopy & Söckchen & Linus & Luna & Suki & Prince & Peppi & Lilibeth & Smokey & Polly  & Jerry & Tommy & Anni & Sony & Wallace & Gunnar & Taiyo & Mona  & Baby & Clemens & Saskia & Nami & Luan & Picoz & Ernest & Chopper & Schneckerl & Dj 
+2023-11-11 14:11:47.069157 - Tierschutzverein Muenchen: ++ Piti & Thaddäus & Leia 
+2023-11-11 14:13:53.070205 - Tierschutzverein Muenchen: ++ Romeo & Balu 

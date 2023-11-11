@@ -30,11 +30,14 @@ class AbstractShelter(ABC):
 
     def update_cache(self, cats) -> dict:
         with open(self.cachepath, "w") as f:
-            yaml.dump(cats, f)
+            yaml.dump(cats, f, allow_unicode=True)
 
     @abstractmethod
     def get_cats(self) -> dict:
         pass
+
+    def clean_name(self, name) -> str:
+        return name.strip()
 
     def update(self):
         def _filtercommon(a, b):
@@ -44,7 +47,7 @@ class AbstractShelter(ABC):
 
         try:
             cached_cats = self.read_cache()
-            new_cats = self.get_cats()
+            new_cats = {self.clean_name(k):v for k,v in self.get_cats().items()}
             self.update_cache(new_cats)
             return {
                 "new_cats": _filtercommon(new_cats, cached_cats),

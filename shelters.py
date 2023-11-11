@@ -57,7 +57,7 @@ class BNShelter(AbstractShelter):
 
     def get_cats(self) -> dict:
         return {
-            self.clean_name(cat.find("h5").get_text()): cat.find("img")["src"]
+            cat.find("h5").get_text(): cat.find("img")["src"]
             for cat in self.soup.find_all(class_="elementor-portfolio-item")
         }
 
@@ -93,7 +93,7 @@ class KoelnShelter(AbstractShelter):
         return name.strip()
 
     def get_cats(self) -> dict:
-        return {self.clean_name(cat.img.get("alt")): cat.img.get("src") for cat in self.soup.find_all("figure")}
+        return {cat.img.get("alt"): cat.img.get("src") for cat in self.soup.find_all("figure")}
 
 class SBShelter(AbstractShelter):
     def __init__(self):
@@ -106,7 +106,7 @@ class SBShelter(AbstractShelter):
         return name.strip()
 
     def get_cats(self) -> dict:
-        names = [self.clean_name(cat.get_text()) for cat in self.soup.find_all("h2")]
+        names = [cat.get_text() for cat in self.soup.find_all("h2")]
         imgs = ["https://www.tierheim-saarbruecken.de/"+cat.img.get("src") for cat in self.soup.find_all(class_="item active")]
         return dict(zip(names, imgs))
     
@@ -131,3 +131,23 @@ class HHShelter(AbstractShelter):
                 names.append(cat.a.get("title"))
                 imgs.append(self.url[:-23] + cat.a.img.get("src"))
         return dict(zip(names, imgs))
+
+class MZShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__("https://www.tierheim-mainz.de/tiere/katzen/", "Tierheim Mainz")
+    
+    def get_cats(self) -> dict:
+        return {cat.get("alt"): self.url[:-13] + cat.get("src") for cat in map(lambda x: x.find("img"), self.soup.find_all(class_="kachel"))}
+    
+
+class MUShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__("https://tierschutzverein-muenchen.de/tiervermittlung/tierheim/katzen", "Tierschutzverein Muenchen")
+    
+    def clean_name(self, name):
+        name = name.replace("'", "")
+        name = name.title()
+        return name.strip()
+    
+    def get_cats(self) -> dict:
+        return {cat.find("h3").get_text(): cat.find("img").get("src") for cat in self.soup.find_all(class_="tsv-tiervermittlung-animal")}

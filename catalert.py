@@ -19,6 +19,8 @@ SOURCES = [
     SBShelter(),
     LUShelter(),
     HHShelter(),
+    MZShelter(),
+    MUShelter()
 ]
 
 with open("recipients.txt") as f:
