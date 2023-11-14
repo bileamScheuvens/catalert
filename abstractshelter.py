@@ -21,15 +21,15 @@ class AbstractShelter(ABC):
         )
         if not os.path.exists(self.cachepath):
             os.makedirs(os.path.dirname(self.cachepath), exist_ok=True)
-            with open(self.cachepath, "w") as f:
+            with open(self.cachepath, "w", encoding="utf-8") as f:
                 yaml.dump({}, f)
 
     def read_cache(self) -> dict:
-        with open(self.cachepath, "r") as f:
+        with open(self.cachepath, "r", encoding="utf-8") as f:
             return yaml.safe_load(f)
 
     def update_cache(self, cats) -> dict:
-        with open(self.cachepath, "w") as f:
+        with open(self.cachepath, "w", encoding="utf-8") as f:
             yaml.dump(cats, f, allow_unicode=True)
 
     @abstractmethod
