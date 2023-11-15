@@ -1,3 +1,4 @@
+import re
 import yaml
 import asyncio
 import requests
@@ -11,17 +12,18 @@ from asyncio.exceptions import CancelledError
 from shelters import *
 
 SOURCES = [
-    KAShelter(),
-    MAShelter(),
-    BNShelter(),
-    HNShelter(),
-    KoelnShelter(),
-    SBShelter(),
-    LUShelter(),
-    HHShelter(),
-    MZShelter(),
-    MUShelter(),
-    SDLShelter(),
+    # KAShelter(),
+    # MAShelter(),
+    # BNShelter(),
+    # HNShelter(),
+    # KoelnShelter(),
+    # SBShelter(),
+    # LUShelter(),
+    # HHShelter(),
+    # MZShelter(),
+    # MUShelter(),
+    # SDLShelter(),
+    OSShelter(),
 ]
 
 with open("recipients.txt") as f:
@@ -43,16 +45,16 @@ async def send_image(recipient, img, caption):
 
 
 async def run(DRY_RUN=False):
+    def _isplural(instr):
+        return any(x in instr for x in ["&", ",", "Die "]) or re.search(r'\d', instr)
+
     async def _send_update(cats, shelter_name, template):
         for cat_name, img_url in cats.items():
-            plural_conditional = (
-                "sind" if any(x in cat_name for x in ["&", ",", "Die "]) else "ist"
-            )
             img_response = requests.get(img_url)
             for recipient in RECIPIENTS:
                 message = template.format(
                     cat_name=cat_name,
-                    pl_cond=plural_conditional,
+                    pl_cond="sind" if _isplural(cat_name) else "ist",
                     shelter_name=shelter_name,
                 )
                 try:
@@ -88,4 +90,4 @@ async def run(DRY_RUN=False):
 
 
 if __name__ == "__main__":
-    asyncio.run(run(DRY_RUN=True))
+    asyncio.run(run(DRY_RUN=False))

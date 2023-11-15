@@ -1,2 +1,9 @@
-2023-11-11 16:00:03.946519 - Tierheim Stendal-Borstel: ++ Unsere Gummibärenbande & Satan, Mephisto, Beelzebub 
-2023-11-11 16:02:44.456544 - Tierheim Stendal-Borstel: ++ Satan, Mephisto, Beelzebub 
+2023-11-14 15:13:55.838024 - Tierschutzverein Heilbronn: ++ Beatrix 
+2023-11-14 15:13:56.803696 - Tierschutzverein Heilbronn: -- Doro 
+2023-11-14 15:13:59.112908 - Tierschutzverein Muenchen: -- Thaddäus & Patrick 
+2023-11-15 20:28:22.894745 - Tierschutzverein Heilbronn: ++ Doro 
+2023-11-15 20:28:25.113433 - Tierschutzverein Heilbronn: -- Calimero 
+2023-11-15 20:28:28.114457 - Tierheim Saarbruecken: ++ Maxi & Noel & 2 Babys 
+2023-11-15 20:28:31.559823 - Tierheim Saarbruecken: -- Maxi & 4 Babys 
+2023-11-15 21:32:23.965716 - Tierschutz Osnabrueck: ++ Brummi & Nell & Taro & Mona & Lisa & Juli & Rio & Milan & Garry, Nick, Ben & Fina & Luna & Marli & Liron & Liv & Maggie & Familie Puschelwuschel & Die Drei Grazien & Alvi & Lene & Ari & Leo & Tom & Jerry & Don, Dave & Chan & Sugar, Kabuki, Siggi & Juri & Marmorkatzen & Grizzly & Koala &
+2023-11-15 21:34:18.635315 - Tierschutz Osnabrueck: ++ Fienchen & Percy & Digger 

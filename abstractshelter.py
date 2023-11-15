@@ -40,6 +40,7 @@ class AbstractShelter(ABC):
         name = name.replace("\n", "")
         name = name.replace("\t", "")
         name = name.replace(" und ", " & ")
+        name = name.split("(")[0]
         return name.strip().title()
 
     def update(self):

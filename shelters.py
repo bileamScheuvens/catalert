@@ -43,13 +43,12 @@ class BNShelter(AbstractShelter):
 
     def clean_name(self, name):
         name = name.split("gerne")[0]
-        name = name.split(",")[0]
-        name = name.split("(")[0]
-        name = name.split("-")[0]
         name = name.split(":")[1] if ":" in name else name
-        name = name.split("–")[0]
         name = name.replace("Private Vermittlungshilfe", "")
         name = name.replace("als Paar", "")
+        name = name.split("-")[0]
+        name = name.split("–")[0]
+        name = name[:-1] if name.endswith(",") else name
         name = name.replace("nur", "")
         return super().clean_name(name)
 
@@ -153,8 +152,15 @@ class SDLShelter(AbstractShelter):
     
     def clean_name(self, name) -> str:
         name = name.replace("hat Interessenten", "")
+        name = name.replace("haben Interessenten", "")
         return super().clean_name(name)
 
     def get_cats(self) -> dict:
         return {cat.get("title"): cat.find("img").get("src") for cat in self.soup.find_all(class_="grid-image")}
         
+class OSShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__("https://tierschutz-osnabrueck.de/tiervermittlung-katzen/", "Tierschutz Osnabrueck")
+    
+    def get_cats(self) -> dict:
+        return {cat.a.get("aria-label"): cat.find("img").get("src") for cat in self.soup.find_all(class_="w-grid-item-h")}
