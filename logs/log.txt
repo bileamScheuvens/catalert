@@ -7,3 +7,48 @@
 2023-11-15 20:28:31.559823 - Tierheim Saarbruecken: -- Maxi & 4 Babys 
 2023-11-15 21:32:23.965716 - Tierschutz Osnabrueck: ++ Brummi & Nell & Taro & Mona & Lisa & Juli & Rio & Milan & Garry, Nick, Ben & Fina & Luna & Marli & Liron & Liv & Maggie & Familie Puschelwuschel & Die Drei Grazien & Alvi & Lene & Ari & Leo & Tom & Jerry & Don, Dave & Chan & Sugar, Kabuki, Siggi & Juri & Marmorkatzen & Grizzly & Koala &
 2023-11-15 21:34:18.635315 - Tierschutz Osnabrueck: ++ Fienchen & Percy & Digger 
+2023-11-18 15:44:38.183244 - Tierheim Albert Schweitzer Bonn: ++ Bandit, Swiffer & Wilson 
+2023-11-18 15:44:38.363296 - Tierheim Albert Schweitzer Bonn: -- Robin & Vivi & Nami & Aramis & Pino & Jim Knopf 
+2023-11-18 15:44:40.074947 - Tierheim Koeln Dellbrueck: -- Mama Luna & Bobby & Pamela 
+2023-11-18 15:44:41.339518 - Hamburger Tierschutzverein: ++ Tips & Ticky & Aurora 
+2023-11-18 15:44:41.569034 - Hamburger Tierschutzverein: -- Tula & Nika & Bika & Trixi 
+2023-11-18 15:47:21.493971 - Tierheim Karlsruhe: ++ Simba & Makkaroni, Pavel, Petrus & Pepsi & Franz & Bandit 
+2023-11-18 15:47:28.267287 - Tierheim Koeln Dellbrueck: -- Mama Luna & Bobby & Pamela 
+2023-11-18 15:47:31.319099 - Tierheim Mainz: ++ Misses Hoockie 
+2023-11-18 15:47:32.063324 - Tierheim Mainz: -- Tila Twilight 
+2023-11-18 15:47:32.932350 - Tierheim Stendal-Borstel: -- Sina 
+2023-11-18 20:07:38.457416 - Tierheim Albert Schweitzer Bonn: ++ Swiffer & Wilson) 
+2023-11-18 20:07:40.024160 - Tierheim Albert Schweitzer Bonn: -- Bandit, Swiffer & Wilson 
+2023-11-18 20:07:40.980003 - Tierheim Ludwigshafen: -- Captain 
+2023-11-19 10:50:37.264381 - Tierheim Albert Schweitzer Bonn: ++ Frodo 
+2023-11-19 16:13:52.174044 - Tierheim Albert Schweitzer Bonn: ++ Nala & Penci 
+2023-11-20 11:52:21.519806 - Hamburger Tierschutzverein: -- Aurora 
+2023-11-20 11:52:23.581797 - Tierschutzverein Muenchen: -- Clemens 
+2023-11-20 17:08:20.720253 - Tierheim Mannheim: -- Mo 
+2023-11-20 17:08:22.140031 - Tierheim Saarbruecken: -- Toni & Lani 
+2023-11-20 17:08:28.934789 - Hamburger Tierschutzverein: -- Lilly & Track & Gundula & Alara & Heinzi & Nika & Lukas & Luck 
+2023-11-20 17:08:55.305242 - Tierschutzverein Muenchen: -- Ernest 
+2023-11-20 19:58:50.806429 - Hamburger Tierschutzverein: ++ Gundula 
+2023-11-20 19:58:52.160430 - Hamburger Tierschutzverein: -- Tips & Ticky & Diablo 
+2023-11-21 10:10:08.776922 - Tierheim Albert Schweitzer Bonn: ++ Kali 
+2023-11-21 10:10:09.834430 - Tierschutzverein Heilbronn: ++ Dori 
+2023-11-21 10:10:10.739050 - Tierschutzverein Heilbronn: -- Doro 
+2023-11-21 16:38:14.872107 - Tierheim Karlsruhe: -- Nadu 
+2023-11-22 11:46:42.280660 - Tierheim Mainz: ++ Munic 
+2023-11-22 11:46:43.771210 - Tierheim Stendal-Borstel: ++ Fridge & Freeze & Oxana & Octavia & Lenny & Mika & Schöni & Maja & Willy & Die Elbenkätzchen & Jensi 
+2023-11-22 12:06:25.003977 - Tierschutzverein Heilbronn: ++ Chanelle & Basima & Bonny 
+2023-11-22 12:06:25.316569 - Tierschutzverein Heilbronn: -- Diana & Dori 
+2023-11-22 12:06:27.841501 - Hamburger Tierschutzverein: ++ Charly & Felix & Tommi, Annika & Pippi & Emely 
+2023-11-22 12:06:28.326844 - Hamburger Tierschutzverein: -- Bob & Flo 
+2023-11-23 15:14:01.102350 - Tierheim Albert Schweitzer Bonn: ++ Mona 
+2023-11-23 15:14:02.274825 - Tierheim Koeln Dellbrueck: ++ Stina & Tummo, Cubbi, Buddi & Gruffi 
+2023-11-23 15:14:05.083848 - Tierschutzverein Muenchen: ++ Bela & Jack 
+2023-11-23 15:14:08.013163 - Tierschutzverein Muenchen: -- Topolino 
+2023-11-23 15:14:09.844378 - Tierheim Stendal-Borstel: ++ Yoshi & Odin & Loki & Die Witcherkatzen 
+2023-11-23 21:16:22.511847 - Tierheim Albert Schweitzer Bonn: ++ Molly Langhaarmix & Lucky Maine Coon 
+2023-11-23 21:16:24.158512 - Tierheim Albert Schweitzer Bonn: -- Divi 
+2023-11-23 21:16:25.464635 - Tierheim Saarbruecken: -- Donna & Chili & Alfi & Flora & Jolanda 
+2023-11-24 10:10:52.329080 - Tierheim Albert Schweitzer Bonn: ++ Molly 
+2023-11-24 10:10:53.684446 - Tierheim Albert Schweitzer Bonn: -- Molly Langhaarmix & Lucky Maine Coon 
+2023-11-24 10:10:54.805887 - Tierheim Saarbruecken: -- Nando 
+2023-11-24 10:51:58.665577 - Hamburger Tierschutzverein: ++ Leika & Levi & Reana 
