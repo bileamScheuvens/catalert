@@ -12,16 +12,16 @@ from asyncio.exceptions import CancelledError
 from shelters import *
 
 SOURCES = [
-    # KAShelter(),
-    # MAShelter(),
-    # BNShelter(),
-    # HNShelter(),
-    # KoelnShelter(),
-    # SBShelter(),
-    # LUShelter(),
-    # HHShelter(),
-    # MZShelter(),
-    # MUShelter(),
+    KAShelter(),
+    MAShelter(),
+    BNShelter(),
+    HNShelter(),
+    KoelnShelter(),
+    SBShelter(),
+    LUShelter(),
+    HHShelter(),
+    MZShelter(),
+    MUShelter(),
     # SDLShelter(),
     OSShelter(),
 ]
@@ -44,9 +44,9 @@ async def send_image(recipient, img, caption):
         log_error(f"{recipient}: {e}", "SEND_IMAGE")
 
 
-async def run(DRY_RUN=False):
+async def run(MAX_PER_CHANGE=1, DRY_RUN=False):
     def _isplural(instr):
-        return any(x in instr for x in ["&", ",", "Die "]) or re.search(r'\d', instr)
+        return ((not "Familie" in  instr) and any(x in instr for x in ["&", ",", "Die "])) or re.search(r'\d', instr)
 
     async def _send_update(cats, shelter_name, template):
         for cat_name, img_url in cats.items():
@@ -76,18 +76,18 @@ async def run(DRY_RUN=False):
         if new_cats:
             log("++", " & ".join(new_cats.keys()), shelter.name)
             await _send_update(
-                new_cats,
+                {k:new_cats[k] for k in list(new_cats.keys())[:MAX_PER_CHANGE]},
                 shelter.name,
                 "{cat_name} {pl_cond} frisch frei zur Adoption von {shelter_name}! 🐱",
             )
         if adopted_cats:
             log("--", " & ".join(adopted_cats.keys()), shelter.name)
             await _send_update(
-                adopted_cats,
+                {k:adopted_cats[k] for k in list(adopted_cats.keys())[:MAX_PER_CHANGE]},
                 shelter.name,
                 "{cat_name} {pl_cond} aus {shelter_name} adoptiert! Alles Gute im neuen Zuhause! 🚀",
             )
 
 
 if __name__ == "__main__":
-    asyncio.run(run(DRY_RUN=False))
+    asyncio.run(run(DRY_RUN=True))
