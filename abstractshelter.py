@@ -1,3 +1,4 @@
+import re
 import os
 import yaml
 import requests
@@ -41,6 +42,7 @@ class AbstractShelter(ABC):
         name = name.replace("\t", "")
         name = name.replace(" und ", " & ")
         name = name.split("(")[0]
+        name = re.split(re.compile("\sca\.?\s", re.IGNORECASE), name)[0]
         return name.strip().title()
 
     def update(self):
