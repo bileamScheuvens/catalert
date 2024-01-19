@@ -13,8 +13,8 @@ from shelters import *
 
 SOURCES = [
     KAShelter(),
-    MAShelter(),
-    BNShelter(),
+    # MAShelter(),
+    # BNShelter(),
     HNShelter(),
     KoelnShelter(),
     SBShelter(),
@@ -46,7 +46,7 @@ async def send_image(recipient, img, caption):
 
 async def run(MAX_PER_CHANGE=1, DRY_RUN=False):
     def _isplural(instr):
-        return ((not "Familie" in  instr) and any(x in instr for x in ["&", ",", "Die "])) or re.search(r'\d', instr)
+        return ((not "Familie" in  instr) and any(x in instr for x in ["&", ",", "Die ", "+"])) or re.search(r'\d{1,2}(?!\d)', instr)
 
     async def _send_update(cats, shelter_name, template):
         for cat_name, img_url in cats.items():

@@ -9,6 +9,10 @@ class KAShelter(AbstractShelter):
         super().__init__(
             "https://www.tierheim-karlsruhe.de/katzen/", "Tierheim Karlsruhe"
         )
+    
+    def clean_name(self, name):
+        name = name.split("*")[0]
+        return super().clean_name(name)
 
     def get_cats(self) -> dict:
         return {
