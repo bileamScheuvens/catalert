@@ -55,9 +55,16 @@ class AbstractShelter(ABC):
             cached_cats = self.read_cache()
             new_cats = {self.clean_name(k):v for k,v in self.get_cats().items()}
             self.update_cache(new_cats)
+            new_cats, adopted_cats = _filtercommon(new_cats, cached_cats), _filtercommon(cached_cats, new_cats)
+            # filter partial matches (e.g. groups where one cat was adopted)
+            for catA in new_cats:
+                for catB in adopted_cats:
+                    if catA in catB or catB in catA:
+                        new_cats.pop(catA)
+                        adopted_cats.pop(catB)
             return {
-                "new_cats": _filtercommon(new_cats, cached_cats),
-                "adopted_cats": _filtercommon(cached_cats, new_cats),
+                "new_cats": new_cats,
+                "adopted_cats": adopted_cats,
             }
         except Exception as e:
             log_error(e, self.name)
