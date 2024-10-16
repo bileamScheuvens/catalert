@@ -26,6 +26,10 @@ SOURCES = [
     OSShelter(),
 ]
 
+SOURCES = [
+    RTShelter(),
+]
+
 with open("recipients.txt") as f:
     RECIPIENTS = f.read().splitlines()
 

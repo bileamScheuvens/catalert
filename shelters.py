@@ -168,3 +168,28 @@ class OSShelter(AbstractShelter):
     
     def get_cats(self) -> dict:
         return {cat.a.get("aria-label"): cat.find("img").get("src") for cat in self.soup.find_all(class_="w-grid-item-h")}
+
+class TueShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__(
+            "https://www.tierheim-karlsruhe.de/katzen/", "Tierschutzverein Tuebingen"
+        )
+    
+    def get_cats(self) -> dict:
+        ## BROKEN, immediately return html code 429, too many requests. Seems scrape protected?
+        return {}
+
+class RTShelter(AbstractShelter):
+    def __init__(self):
+        super().__init__(
+            "https://www.tierschutzverein-reutlingen.de/unsere-tiere/unsere-katzen/", "Tierschutzverein Reutlingen"
+        )
+
+    def clean_name(self, name) -> str:
+        name = name.split("*")[0]
+        return super().clean_name(name)
+        
+    
+    def get_cats(self) -> dict:
+        return {cat.find(class_="fusion-link-wrapper").get("aria-label"):cat.find("img").get("src") for cat in self.soup.find_all(class_="category-katzen")}
+
