@@ -27,7 +27,7 @@ class AbstractShelter(ABC):
 
     def read_cache(self) -> dict:
         with open(self.cachepath, "r", encoding="utf-8") as f:
-            return yaml.safe_load(f)
+            return yaml.safe_load(f) or {}
 
     def update_cache(self, cats) -> dict:
         with open(self.cachepath, "w", encoding="utf-8") as f:
@@ -57,9 +57,9 @@ class AbstractShelter(ABC):
             self.update_cache(new_cats)
             new_cats, adopted_cats = _filtercommon(new_cats, cached_cats), _filtercommon(cached_cats, new_cats)
             # filter partial matches (e.g. groups where one cat was adopted)
-            for catA in new_cats:
-                for catB in adopted_cats:
-                    if catA in catB or catB in catA:
+            for catA in new_cats.copy():
+                for catB in adopted_cats.copy():
+                    if catA in catB or catB in catA or new_cats[catA] == adopted_cats[catB]:
                         new_cats.pop(catA)
                         adopted_cats.pop(catB)
             return {

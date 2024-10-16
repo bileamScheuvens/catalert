@@ -21,16 +21,16 @@ SOURCES = [
     LUShelter(),
     HHShelter(),
     MZShelter(),
-    MUShelter(),
+    # MUShelter(),
     # SDLShelter(),
     OSShelter(),
-]
-
-SOURCES = [
-    RTShelter(),
+    RTShelter()
 ]
 
 with open("recipients.txt") as f:
+    RECIPIENTS = f.read().splitlines()
+
+with open("justme.txt") as f:
     RECIPIENTS = f.read().splitlines()
 
 bot = Bot(token=yaml.safe_load(open("secrets.yaml"))["bot_token"])
@@ -48,7 +48,7 @@ async def send_image(recipient, img, caption):
         log_error(f"{recipient}: {e}", "SEND_IMAGE")
 
 
-async def run(MAX_PER_CHANGE=1, DRY_RUN=False):
+async def run(MAX_PER_CHANGE=2, DRY_RUN=False):
     def _isplural(instr):
         return ((not "Familie" in  instr) and any(x in instr for x in ["&", ",", "Die ", "+"])) or re.search(r'\d{1,2}(?!\d)', instr)
 
@@ -94,4 +94,4 @@ async def run(MAX_PER_CHANGE=1, DRY_RUN=False):
 
 
 if __name__ == "__main__":
-    asyncio.run(run(DRY_RUN=True))
+    asyncio.run(run(MAX_PER_CHANGE=2, DRY_RUN=False))
