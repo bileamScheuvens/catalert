@@ -54,8 +54,7 @@
 2023-11-24 10:51:58.665577 - Hamburger Tierschutzverein: ++ Leika & Levi & Reana 
 2023-11-24 14:37:37.558851 - Tierheim Albert Schweitzer Bonn: ++ Diddeldei & Diddeldum & Shari & Shane 
 2023-11-24 14:37:37.756326 - Tierheim Albert Schweitzer Bonn: -- Shari, Shane, Diddeldei, Diddeldum 
-2023-11-25 11:03:18.607966 - Tierheim Albert Schweitzer Bonn: ++ Bandit & Swiffer & Wilson 
-2023-11-25 11:03:18.770651 - Tierheim Albert Schweitzer Bonn: -- Vicky & Swiffer & Wilson) 
+2023-11-25 11:03:18.607966 - Tierheim Albert Schweitzer Bonn: ++ Bandit & Swiffer & Wilson
 2023-11-25 11:03:18.966687 - Tierschutzverein Heilbronn: ++ Diana 
 2023-11-25 11:03:19.136651 - Tierschutzverein Heilbronn: -- Chanelle 
 2023-11-25 11:03:21.531764 - Hamburger Tierschutzverein: ++ Cindy 
@@ -88,4 +87,763 @@
 2023-11-30 11:57:21.000186 - Hamburger Tierschutzverein: ++ Frieda & Point & Lupi 
 2023-12-01 16:14:36.783655 - Tierheim Albert Schweitzer Bonn: -- Kali & Sheela 
 2023-12-01 16:14:40.004277 - Tierschutzverein Muenchen: ++ Püppi & Felix 
-2023-12-02 15:26:44.425412 - Tierheim Albert Schweitzer Bonn: ++ Tauny Siam & Maddin 
+2023-12-02 15:26:44.425412 - Tierheim Albert Schweitzer Bonn: ++ Tauny Siam & Maddin 2023-12-02 15:37:58.387927 - Tierheim Albert Schweitzer Bonn: ++ Maddin 
+2023-12-03 12:16:41.184190 - Tierheim Albert Schweitzer Bonn: -- Fussel 
+2023-12-04 14:54:41.221079 - Tierheim Karlsruhe: ++ Joe + Janus & Donna 
+2023-12-04 14:54:45.242723 - Hamburger Tierschutzverein: -- Saphira & Mimi & Salino 
+2023-12-04 18:27:11.713350 - Tierheim Koeln Dellbrueck: -- Tummo, Cubbi, Buddi & Gruffi 
+2023-12-04 18:27:13.545318 - Tierschutzverein Muenchen: -- Malala 
+2023-12-04 22:25:37.087673 - Tierheim Albert Schweitzer Bonn: -- Tauny Siam 
+2023-12-05 17:01:52.193043 - Tierheim Koeln Dellbrueck: ++ Chester 
+2023-12-05 17:01:54.503851 - Hamburger Tierschutzverein: ++ Milan & Hermine, Luna & Ginny & Rapunzel & Henriette 
+2023-12-06 11:35:23.906652 - Tierheim Saarbruecken: ++ Ms. Grey 
+2023-12-06 11:35:27.190419 - Tierheim Saarbruecken: -- Joschi 
+2023-12-06 17:42:57.948309 - Hamburger Tierschutzverein: ++ Fronk 
+2023-12-06 17:43:06.352046 - Hamburger Tierschutzverein: -- Tuck, Tick & Tak & Frieda 
+2023-12-06 23:38:35.660916 - Tierheim Albert Schweitzer Bonn: ++ Topsy Siam Mix & Noel, Nini, Neyla, Nele 
+2023-12-06 23:38:37.394390 - Tierheim Ludwigshafen: -- Milky & Bongo 
+2023-12-07 10:23:46.898545 - Tierheim Albert Schweitzer Bonn: ++ Topsy 
+2023-12-07 10:23:49.939271 - Tierheim Albert Schweitzer Bonn: -- Topsy Siam Mix 
+2023-12-08 13:58:04.700088 - Hamburger Tierschutzverein: -- Rapunzel & Lissy 
+2023-12-08 13:58:06.770021 - Tierschutzverein Muenchen: -- Drolly 
+2023-12-08 13:58:08.655349 - Tierschutz Osnabrueck: -- Tom & Lissy 
+2023-12-08 20:38:36.497444 - Hamburger Tierschutzverein: -- Leika & Levi & Fronk 
+2023-12-09 18:35:49.839076 - Tierheim Koeln Dellbrueck: -- Eike 
+2023-12-10 16:04:44.683676 - Tierschutzverein Muenchen: -- Marry 
+2023-12-11 12:13:33.598565 - Tierschutzverein Heilbronn: ++ Diana & Daisy & Debbie & Dori 
+2023-12-11 12:13:35.391212 - Tierschutzverein Heilbronn: -- Becky & Aiden & Ada & Daisy & Destiny 
+2023-12-11 12:13:37.665818 - Hamburger Tierschutzverein: -- Henriette 
+2023-12-11 16:56:43.000394 - Tierschutzverein Muenchen: -- Felix & Püppi 
+2023-12-12 12:19:28.828761 - Tierschutzverein Heilbronn: ++ Cookie 
+2023-12-12 12:19:31.140990 - Tierschutzverein Heilbronn: -- Dori 
+2023-12-12 12:19:32.216672 - Tierheim Ludwigshafen: -- Ghost 
+2023-12-12 12:19:33.974608 - Tierheim Mainz: -- Misses Hoockie & Luna 
+2023-12-12 12:19:34.869481 - Tierschutzverein Muenchen: ++ Captain Crunch & Shakira 
+2023-12-13 00:39:55.427103 - Hamburger Tierschutzverein: -- Maitei & Fleckerl 
+2023-12-13 00:39:57.133089 - Tierschutzverein Muenchen: ++ Rita Kimmkorn 
+2023-12-13 16:39:43.598405 - Tierschutzverein Heilbronn: ++ Barisa & Butterfly & Binny & Baskana & Barlas & Blossom & Bella & Hexe & Bisquit & Bijou & Bambi 
+2023-12-13 16:39:46.213897 - Tierschutzverein Heilbronn: -- Darwina & Damian & Didi & Chloe & Chiara & Daisy & Cookie & Clyde & Debbie & Diana & Daniela 
+2023-12-13 16:39:50.287598 - Hamburger Tierschutzverein: -- Milan & Pencil & Hermine, Luna & Ginny 
+2023-12-15 13:34:00.427998 - Tierheim Karlsruhe: -- Grumpy & Karima 
+2023-12-15 13:34:02.542636 - Tierschutzverein Heilbronn: ++ Batwoman & Bandita 
+2023-12-15 13:34:03.868155 - Tierschutzverein Heilbronn: -- Chianti & Butterfly 
+2023-12-15 13:34:05.146685 - Tierheim Koeln Dellbrueck: ++ Borstel 
+2023-12-15 13:34:06.430228 - Tierheim Saarbruecken: -- Ms. Grey 
+2023-12-15 13:34:09.282328 - Hamburger Tierschutzverein: ++ Kitten - Marshmallow, Rosine, Gummibärchen, Erdnuss & Pfirsich 
+2023-12-15 13:34:16.670431 - Hamburger Tierschutzverein: -- Point 
+2023-12-15 13:34:18.658974 - Tierschutzverein Muenchen: ++ Louis 
+2023-12-15 13:34:19.923218 - Tierschutzverein Muenchen: -- Söckchen 
+2023-12-16 09:00:19.817509 - Hamburger Tierschutzverein: -- Klara 
+2023-12-17 10:54:33.704889 - Tierschutzverein Muenchen: -- Lucky & Micky & Bela 
+2023-12-17 17:33:30.449688 - Tierschutzverein Muenchen: -- Lisa 
+2023-12-18 13:25:15.884905 - Hamburger Tierschutzverein: -- Kitten - Marshmallow, Rosine, Gummibärchen, Erdnuss & Pfirsich 
+2024-01-06 21:06:22.170418 - Tierheim Karlsruhe: ++ Joe & Janus & Makkaroni & Pepsi & Yuki & Loki & Luzifer & Artimes & Hp 
+2024-01-06 21:06:23.615278 - Tierheim Karlsruhe: -- Makkaroni, Pavel, Petrus & Pepsi & Joe + Janus & Donna & Franz + Bandit 
+2024-01-06 21:06:24.278497 - Tierschutzverein Heilbronn: ++ Buster & Bayla & Anastasia & Benjo & Bubbles & Blade & Blair & Bina 
+2024-01-06 21:06:25.359661 - Tierschutzverein Heilbronn: -- Abraxas & Beatrix & Alcapone & Bella & Hexe & Alma & Alwin & Bandita & Blossom 
+2024-01-06 21:06:26.358414 - Tierheim Koeln Dellbrueck: ++ Käse-Dave & Andy & Ulli & Rosi & Nami & Madame & Pamuk & Flory 
+2024-01-06 21:06:27.906670 - Tierheim Koeln Dellbrueck: -- Chester & Emil 
+2024-01-06 21:06:28.965903 - Tierheim Saarbruecken: ++ Foxy & Malia & Helene & Julie & Florian & Guilia, Romy, Jane, Paida, Malek, Nevin, Cuba & Nola & Enya & Levi & Lina 
+2024-01-06 21:06:30.062142 - Tierheim Saarbruecken: -- Julie & 7 Babys & 2 Babys & Maxi & Noel & Florian & Uno 
+2024-01-06 21:06:34.359174 - Tierheim Ludwigshafen: ++ Daddy & Lumi & Pikatzo & Peach & Demon & Devil & Joshi & Toad & Geli & Mausi & Dracula 
+2024-01-06 21:06:35.181406 - Tierheim Ludwigshafen: -- Yami & Way & Mausi & Ebony & Ivory & Goliath 
+2024-01-06 21:06:36.923137 - Hamburger Tierschutzverein: ++ Luna & Maite & Maisy & Kurti & Track & Moritz & Zorro & Faye & Hubert & Marzipan & Maunzieur & Struppi & Lissi & Bootsmann & Lina & Hades & Lasse, Bosse, Ida & Lotta 
+2024-01-06 21:06:38.561351 - Hamburger Tierschutzverein: -- Reana & Mona, Sophie & Lacy & Franz & Fritzi & Skardi & Rainbow 
+2024-01-06 21:06:40.129629 - Tierschutzverein Muenchen: ++ Micky & Masi & Cookie & Elli & Lillith & Charlie & Alois & Lilli & Lisa & Marry & Zottel 
+2024-01-06 21:06:41.236848 - Tierschutzverein Muenchen: -- Toni & Dj & Sissi & Louis & Jack & Piti & Rita Kimmkorn & Richy & Gunnar & Lala & Mausi & Lilibeth & Captain Crunch 
+2024-01-06 21:06:42.206159 - Tierschutz Osnabrueck: -- Alvi & Lene 
+2024-01-07 13:19:56.121148 - Tierheim Karlsruhe: ++ Knopf & Bibi & Sia 
+2024-01-07 13:19:57.575045 - Tierheim Ludwigshafen: ++ Tabaluga & Padma & Zora, Amira, Naira, Professor Heitmann, Dr. Beckmann, Hr. Schneider & Fino & Autmn & El Schnurro & Winter & Brownie & Terra & Cinnamon & Summer & Schnurrman & Ghandi & Schnurrbert 
+2024-01-07 13:19:58.489187 - Tierheim Ludwigshafen: -- Winter, Summer, Autumn & Padma & Kitten 
+2024-01-07 13:20:00.970569 - Tierheim Mainz: -- Otto & Fria & Flavio & Panda Po & Schneewittchen & Mik 
+2024-01-07 13:20:01.699664 - Tierschutzverein Muenchen: -- Shakira 
+2024-01-07 16:07:12.549165 - Tierschutzverein Muenchen: -- Marry 
+2024-01-08 14:40:00.036799 - Hamburger Tierschutzverein: ++ Anna, Elsa, Olaf & Iduna 
+2024-01-08 14:40:03.777465 - Hamburger Tierschutzverein: -- Lasse, Bosse, Ida & Lotta 
+2024-01-08 19:11:00.875609 - Tierheim Ludwigshafen: ++ Franky & Mr. Spex 
+2024-01-08 19:11:03.471461 - Tierschutzverein Muenchen: -- Mimi-Jutta 
+2024-01-09 12:51:52.906794 - Tierheim Koeln Dellbrueck: -- Andy & Ulli & Flory & Madame & Pamuk & Nami 
+2024-01-09 12:51:54.053454 - Tierheim Saarbruecken: -- Foxy & Levi & Malia 
+2024-01-09 12:52:37.277713 - Hamburger Tierschutzverein: ++ Romi & Julio 
+2024-01-09 12:52:38.826698 - Tierheim Mainz: ++ Kalea & Otto & Phil 
+2024-01-09 12:52:39.572316 - Tierschutzverein Muenchen: ++ Phoebe 
+2024-01-10 13:54:06.349831 - Tierheim Koeln Dellbrueck: ++ Balbo & Loki & Uschi 
+2024-01-10 13:54:09.299894 - Hamburger Tierschutzverein: ++ Marly & Mina 
+2024-01-10 13:54:11.157341 - Tierschutzverein Muenchen: ++ Lumi & Rosie & Fritzi & Dilan 
+2024-01-10 13:54:12.289435 - Tierschutzverein Muenchen: -- Masi 
+2024-01-10 13:54:13.800377 - Tierschutz Osnabrueck: ++ Paula & Frieda & Findus & Happy & Pascha & Kiki & Smiley & Cruella & Trude 
+2024-01-10 13:54:16.291161 - Tierschutz Osnabrueck: -- Familie Puschelwuschel 
+2024-01-10 18:03:16.943551 - Hamburger Tierschutzverein: -- Marzipan 
+2024-01-10 18:03:18.349914 - Tierschutzverein Muenchen: -- Zottel 
+2024-01-10 18:03:19.585573 - Tierschutz Osnabrueck: ++ Pumkin & Drops & Sori & Sianna & Beast & Pansy & Socke & Sora 
+2024-01-12 11:41:57.858678 - Tierschutzverein Heilbronn: ++ Butterfly & Carter 
+2024-01-12 11:41:59.347525 - Tierschutzverein Heilbronn: -- Bambi & Bayla 
+2024-01-12 11:42:02.299201 - Hamburger Tierschutzverein: ++ Lotti & Bosse & Ida & Olga & Marly & Chica 
+2024-01-12 11:42:04.133692 - Hamburger Tierschutzverein: -- Hades 
+2024-01-12 14:15:40.748904 - Hamburger Tierschutzverein: ++ Brummbär & Grizzly 
+2024-01-13 12:04:20.989226 - Tierheim Koeln Dellbrueck: ++ Giffi & Jordy 
+2024-01-13 12:04:22.274674 - Tierheim Ludwigshafen: ++ Amira, Professor Heitmann, Dr. Beckmann, Hr. Schneider 
+2024-01-13 12:04:23.729397 - Tierheim Ludwigshafen: -- Zora, Amira, Naira, Professor Heitmann, Dr. Beckmann, Hr. Schneider & Ghandi 
+2024-01-13 12:04:25.437980 - Hamburger Tierschutzverein: -- Bootsmann & Olga & Lotti 
+2024-01-13 12:04:26.787020 - Tierschutzverein Muenchen: ++ Sissi & Flecki & Lady 
+2024-01-13 12:04:28.353684 - Tierschutzverein Muenchen: -- Lilli 
+2024-01-13 12:04:29.963072 - Tierschutz Osnabrueck: ++ Fee & Rico, Tilo, Pino & Nino & Draco & Bill 
+2024-01-13 12:04:31.319156 - Tierschutz Osnabrueck: -- Betty & Wilma 
+2024-01-15 22:32:34.118866 - Tierheim Karlsruhe: ++ Luzifer *Reserviert* & Artimes *Reserviert* & Loki *Reserviert* & Yuki *Reserviert* & Hp *Reserviert* 
+2024-01-15 22:32:35.261779 - Tierheim Karlsruhe: -- Floh & Makkaroni & Pepsi & Luzifer & Loki & Joe & Janus & Yuki & Hp & Artimes 
+2024-01-15 22:32:36.057641 - Tierschutzverein Heilbronn: ++ Casey 
+2024-01-15 22:32:36.836992 - Tierschutzverein Heilbronn: -- Boomer 
+2024-01-15 22:32:37.625578 - Tierheim Koeln Dellbrueck: -- Käse-Dave 
+2024-01-15 22:32:38.416946 - Tierheim Saarbruecken: ++ Bonnie 
+2024-01-15 22:32:39.443318 - Tierheim Saarbruecken: -- Marley & Stitch 
+2024-01-15 22:32:42.713103 - Hamburger Tierschutzverein: ++ Lotta & Ida 
+2024-01-15 22:32:43.541984 - Hamburger Tierschutzverein: -- Bosse & Ida 
+2024-01-15 22:32:45.478636 - Tierschutzverein Muenchen: -- Freya & Charlie & Snow-Snow & Cookie & Rosie & Dilan 
+2024-01-15 22:32:46.353438 - Tierschutz Osnabrueck: -- Kiki 
+2024-01-16 14:03:24.310515 - Tierheim Koeln Dellbrueck: -- Giffi & Jordy 
+2024-01-16 14:03:27.287902 - Hamburger Tierschutzverein: -- Marly 
+2024-01-16 14:03:29.221772 - Tierschutzverein Muenchen: ++ Rolly & Lolly 
+2024-01-16 21:45:11.795729 - Tierheim Koeln Dellbrueck: -- Rosi & Victor & Tilda 
+2024-01-17 13:52:54.754821 - Hamburger Tierschutzverein: -- Lina 
+2024-01-19 14:04:54.814059 - Tierheim Karlsruhe: ++ Luzifer & Loki & Hp & Artimes & Yuki 
+2024-01-19 14:04:55.746147 - Tierheim Karlsruhe: -- Hp *Reserviert* & Luzifer *Reserviert* & Artimes *Reserviert* & Loki *Reserviert* & Yuki *Reserviert* 
+2024-01-19 14:04:56.681697 - Tierheim Koeln Dellbrueck: ++ Molly & Piefke & Nima & Tom 
+2024-01-19 14:04:58.282057 - Tierheim Ludwigshafen: ++ Joshi & Devil & Ojo, Trilo, Pip, Pop & Tata 
+2024-01-19 14:05:00.469501 - Tierheim Ludwigshafen: -- Joshi & Toad & Demon & Devil 
+2024-01-19 14:05:03.117848 - Hamburger Tierschutzverein: ++ Anna & Elsa 
+2024-01-19 14:05:06.203753 - Hamburger Tierschutzverein: -- Chica & Faye & Maite & Maisy & Anna, Elsa, Olaf & Iduna 
+2024-01-19 14:05:09.501027 - Tierschutzverein Muenchen: -- Kiki 
+2024-01-21 12:29:13.809687 - Tierheim Saarbruecken: -- Helene 
+2024-01-21 20:55:07.571450 - Tierheim Ludwigshafen: ++ Monet, Van Gogh, Picasso, Da Vinci & Frida Kahlo & Professor Heitmann, Dr. Beckmann, Hr. Schneider 
+2024-01-21 20:55:07.867254 - Tierheim Ludwigshafen: -- Amira, Professor Heitmann, Dr. Beckmann, Hr. Schneider 
+2024-01-21 20:55:10.352518 - Tierschutzverein Muenchen: ++ Viva-La-Diva & Urania & Noby / Monte & Vulcano & Nala / Mila 
+2024-01-22 13:22:00.459793 - Tierschutzverein Heilbronn: ++ Barracuda 
+2024-01-22 13:22:00.691747 - Tierschutzverein Heilbronn: -- Anastasia 
+2024-01-22 13:22:02.134844 - Hamburger Tierschutzverein: ++ Flinka & Petterson & Lotta & Amadeus & Miguel & Sternchen 
+2024-01-22 13:22:02.345825 - Hamburger Tierschutzverein: -- Romi & Julio & Struppi & Lotta & Ida 
+2024-01-23 14:07:46.311162 - Tierheim Saarbruecken: -- Bonnie 
+2024-01-23 14:07:48.643931 - Hamburger Tierschutzverein: ++ Herr Rosalie & Rosi 
+2024-01-23 14:07:48.784519 - Hamburger Tierschutzverein: -- Amadeus & Anna & Elsa 
+2024-01-23 14:07:49.388557 - Tierschutzverein Muenchen: ++ Nala & Noby 
+2024-01-23 14:07:49.708979 - Tierschutzverein Muenchen: -- Noby / Monte & Lumi & Nala / Mila 
+2024-01-24 12:30:42.751511 - Tierheim Saarbruecken: ++ Mira & Mara 
+2024-01-24 12:30:43.000983 - Tierheim Ludwigshafen: ++ Professor Heitmann & Hr. Schneider 
+2024-01-24 12:30:43.169312 - Tierheim Ludwigshafen: -- Mausi & Void & Professor Heitmann, Dr. Beckmann, Hr. Schneider 
+2024-01-24 12:30:44.307940 - Hamburger Tierschutzverein: ++ Will & Jack & Amora & Lilli 
+2024-01-24 12:30:44.469976 - Hamburger Tierschutzverein: -- Lotta & Luna & Lissi 
+2024-01-24 12:30:44.763722 - Tierschutzverein Muenchen: -- Fritzi 
+2024-01-24 19:48:25.135965 - Hamburger Tierschutzverein: -- Will, Willie, Willis & William 
+2024-01-24 19:48:25.742824 - Tierschutz Osnabrueck: -- Liron 
+2024-01-25 12:20:06.641354 - Tierschutzverein Heilbronn: ++ Beyonce 
+2024-01-25 12:20:06.885784 - Tierschutzverein Heilbronn: -- Casey 
+2024-01-25 12:20:31.829886 - Hamburger Tierschutzverein: -- Carmen & Track & Moritz & Emma & Petterson & Maunzieur 
+2024-01-25 12:20:35.106575 - Tierheim Mainz: ++ Suleika & Maleo & Skilla 
+2024-01-25 12:20:35.788959 - Tierheim Mainz: -- Otto & Phil & Monet 
+2024-01-26 12:54:11.699169 - Tierschutzverein Heilbronn: ++ Casey 
+2024-01-26 12:54:13.428328 - Tierschutzverein Heilbronn: -- Beyonce 
+2024-01-26 12:54:15.820937 - Hamburger Tierschutzverein: ++ Bino & Flowy 
+2024-01-26 12:54:17.390276 - Hamburger Tierschutzverein: -- Marly & Mina & Will & Jack 
+2024-01-26 12:54:18.949962 - Tierschutzverein Muenchen: -- Alois 
+2024-01-27 15:48:17.575821 - Tierheim Koeln Dellbrueck: ++ Felix 
+2024-01-27 15:48:19.851553 - Tierheim Koeln Dellbrueck: -- Borstel 
+2024-01-27 15:48:20.888234 - Tierheim Saarbruecken: -- Nola & Enya 
+2024-01-27 15:48:23.261284 - Hamburger Tierschutzverein: -- Amora & Rosi 
+2024-01-27 15:48:24.704137 - Tierschutzverein Muenchen: -- Cici & Elli 
+2024-01-27 15:48:25.908824 - Tierschutz Osnabrueck: -- Sori & Sianna 
+2024-01-27 20:50:51.297097 - Tierheim Saarbruecken: ++ Nola & Enya & Finn & !!! Notfall: Morro 
+2024-01-27 20:50:53.679777 - Tierheim Saarbruecken: -- Dexter 
+2024-01-28 13:09:19.701407 - Tierheim Ludwigshafen: ++ Rosa 
+2024-01-28 13:09:20.987554 - Tierheim Ludwigshafen: -- Schnurrman & El Schnurro & Schnurrbert & Professor Heitmann & Hr. Schneider & Joshi & Devil 
+2024-01-28 13:09:24.082136 - Tierschutzverein Muenchen: -- Fidi 
+2024-01-29 15:28:46.409404 - Tierheim Karlsruhe: -- Sia 
+2024-01-29 15:28:49.074259 - Hamburger Tierschutzverein: -- Zorro & Flowy & Kurti 
+2024-01-29 15:28:50.361989 - Tierschutzverein Muenchen: -- Micky 
+2024-01-30 12:35:50.944294 - Tierheim Ludwigshafen: ++ Terra & Cinnaman 
+2024-01-30 12:35:52.626964 - Tierheim Ludwigshafen: -- Terra & Cinnamon 
+2024-01-30 12:35:54.356302 - Hamburger Tierschutzverein: ++ Felina & Big Tiger 
+2024-01-30 12:35:55.415871 - Hamburger Tierschutzverein: -- Bino & Lilli & Brummbär & Grizzly 
+2024-01-30 12:35:56.419828 - Tierschutzverein Muenchen: -- Vulcano 
+2024-01-31 14:47:50.766458 - Tierschutzverein Heilbronn: ++ Bolt 
+2024-01-31 14:47:51.940326 - Tierschutzverein Heilbronn: -- Casey 
+2024-01-31 14:47:53.985129 - Hamburger Tierschutzverein: ++ Pünktchen & Maxi 
+2024-01-31 14:47:56.055624 - Hamburger Tierschutzverein: -- Ulf 
+2024-01-31 14:47:57.787704 - Tierschutzverein Muenchen: ++ Odessa & Lucia & Ermana & Fee & Simba 
+2024-01-31 14:48:00.036089 - Tierschutzverein Muenchen: -- Viva-La-Diva & Urania 
+2024-02-01 12:21:50.852747 - Tierheim Karlsruhe: ++ Yuki & Hp 
+2024-02-01 12:21:52.313849 - Tierheim Karlsruhe: -- Loki & Yuki & Hp & Luzifer & Artimes 
+2024-02-01 12:21:54.380839 - Hamburger Tierschutzverein: ++ Luna & Lupin & Grummel 
+2024-02-01 16:52:28.578810 - Tierschutzverein Muenchen: -- Chica 
+2024-02-02 10:43:45.367145 - Hamburger Tierschutzverein: ++ Anni 
+2024-02-02 10:43:47.819862 - Hamburger Tierschutzverein: -- Flinka & Miguel & Herr Rosalie 
+2024-02-03 15:04:32.637191 - Tierheim Karlsruhe: -- Knopf 
+2024-02-03 15:04:33.652075 - Tierheim Ludwigshafen: -- Peach 
+2024-02-03 15:04:35.544071 - Hamburger Tierschutzverein: ++ Steph 
+2024-02-03 15:04:37.169271 - Hamburger Tierschutzverein: -- Pünktchen & Sternchen 
+2024-02-03 15:04:38.755250 - Tierschutzverein Muenchen: ++ Gatito & Felix-Flausch 
+2024-02-03 15:04:40.325000 - Tierschutzverein Muenchen: -- Nala & Odessa & Noby 
+2024-02-04 11:07:06.438660 - Tierschutzverein Heilbronn: ++ Casey 
+2024-02-04 11:07:07.889458 - Tierschutzverein Heilbronn: -- Bolt 
+2024-02-04 11:07:09.004495 - Tierheim Saarbruecken: ++ Lola & Ulla 
+2024-02-04 11:07:10.922551 - Tierheim Saarbruecken: -- Lanis Babys & !!! Notfall: Morro 
+2024-02-04 11:07:12.712694 - Tierheim Mainz: ++ Mira 
+2024-02-04 11:07:13.651236 - Tierschutzverein Muenchen: -- Fee 
+2024-02-05 13:20:58.059532 - Tierheim Saarbruecken: ++ Eumel & Vivaldi & Anton & Linette & Kitty & Felix & Tamila 
+2024-02-05 13:21:01.346930 - Hamburger Tierschutzverein: ++ Muffin & Twix & Bella & Lucifer 
+2024-02-05 13:21:03.468582 - Tierschutzverein Muenchen: ++ Sissy 
+2024-02-05 13:21:04.906616 - Tierschutzverein Muenchen: -- Trixi 
+2024-02-05 13:21:06.620051 - Tierschutz Osnabrueck: -- Paula & Pumkin & Drops & Marmorkatzen 
+2024-02-05 19:09:44.499724 - Hamburger Tierschutzverein: -- Steph 
+2024-02-06 14:37:37.774738 - Hamburger Tierschutzverein: ++ Houdini 
+2024-02-06 14:37:39.238352 - Hamburger Tierschutzverein: -- Rosi, Bienchen & Pumi 
+2024-02-06 14:37:40.712595 - Tierheim Mainz: ++ Ibot 
+2024-02-06 20:13:50.443483 - Tierheim Koeln Dellbrueck: ++ Homer 
+2024-02-06 20:13:53.377714 - Hamburger Tierschutzverein: ++ Fauchi 
+2024-02-07 18:36:29.717996 - Tierheim Koeln Dellbrueck: ++ Willi & Peter 
+2024-02-07 18:36:32.910998 - Hamburger Tierschutzverein: -- Lupi & Andy 
+2024-02-07 18:36:34.942121 - Tierschutzverein Muenchen: -- Elvira & Phoebe 
+2024-02-08 11:56:24.063930 - Tierheim Saarbruecken: -- Eumel 
+2024-02-08 11:56:26.589868 - Tierschutz Osnabrueck: -- Socke & Sora 
+2024-02-08 14:45:28.872209 - Hamburger Tierschutzverein: ++ Finn 
+2024-02-09 11:02:24.027989 - Hamburger Tierschutzverein: ++ Alfred 
+2024-02-09 11:02:26.058491 - Tierschutz Osnabrueck: -- Grizzly & Koala 
+2024-02-10 13:30:42.766707 - Tierheim Ludwigshafen: ++ Daddy & Pikatzo & Brownie & Fino 
+2024-02-10 13:30:44.159429 - Tierheim Ludwigshafen: -- Daddy & Brownie & Fino & Pikatzo & Orpheus & Padma 
+2024-02-10 13:30:46.829492 - Hamburger Tierschutzverein: ++ Noah, Finn & Leni 
+2024-02-10 13:30:48.503552 - Tierschutzverein Muenchen: ++ Bartholomäus 
+2024-02-10 13:30:49.352854 - Tierschutzverein Muenchen: -- Mona & Lisa & Flecki 
+2024-02-10 20:37:41.898591 - Tierschutzverein Muenchen: -- Lillith 
+2024-02-11 11:30:56.232876 - Tierheim Karlsruhe: ++ Pocky & Jacki & Zeus & Kaleeshi 
+2024-02-12 13:22:10.174912 - Tierschutzverein Heilbronn: ++ Beatrix & Chianti 
+2024-02-12 13:22:12.280343 - Tierschutzverein Heilbronn: -- Barlas & Bisquit 
+2024-02-12 13:22:15.809827 - Hamburger Tierschutzverein: -- Houdini & Felina & Big Tiger 
+2024-02-12 13:22:17.734884 - Tierschutzverein Muenchen: -- Lolly & Rolly 
+2024-02-13 14:41:15.347815 - Tierheim Saarbruecken: -- Tamila & Vivaldi 
+2024-02-13 14:42:18.513433 - Hamburger Tierschutzverein: ++ Melody & Maya 
+2024-02-13 14:42:22.314863 - Hamburger Tierschutzverein: -- Noah, Finn & Leni 
+2024-02-13 14:42:24.291682 - Tierschutzverein Muenchen: ++ Kasper 
+2024-02-13 14:42:26.260877 - Tierschutz Osnabrueck: -- Draco & Bill & Fee 
+2024-02-14 16:20:30.933264 - Hamburger Tierschutzverein: ++ Lola 
+2024-02-14 16:20:33.873571 - Hamburger Tierschutzverein: -- Maxi 
+2024-02-15 17:02:01.032862 - Tierheim Karlsruhe: ++ Pico 
+2024-02-15 17:02:02.893626 - Tierheim Koeln Dellbrueck: -- Balbo & Al Capone & Molly & Nima & Tom & Homer & Peter 
+2024-02-15 17:02:04.931458 - Tierheim Ludwigshafen: -- Franky 
+2024-02-15 17:02:10.042888 - Tierschutzverein Muenchen: -- Simba 
+2024-02-16 14:21:02.012891 - Tierschutzverein Heilbronn: ++ Cherry 
+2024-02-16 14:21:03.313701 - Tierschutzverein Heilbronn: -- Chianti 
+2024-02-16 14:21:04.435024 - Tierheim Koeln Dellbrueck: ++ Tiger & Balou 
+2024-02-16 14:21:07.005219 - Hamburger Tierschutzverein: ++ Judy 
+2024-02-17 12:44:43.074324 - Tierheim Saarbruecken: ++ Happy, Gipsy, Indira 
+2024-02-17 12:44:45.843771 - Hamburger Tierschutzverein: -- Alfred & Lucifer & Melody & Maya 
+2024-02-17 12:44:46.937640 - Tierheim Mainz: -- Munic 
+2024-02-18 11:10:13.019352 - Tierheim Karlsruhe: -- Yuki & Hp 
+2024-02-19 13:12:25.395992 - Tierheim Saarbruecken: -- Anton & Ellie & Nola & Enya 
+2024-02-19 13:12:30.257623 - Hamburger Tierschutzverein: -- Judy 
+2024-02-19 13:12:32.001694 - Tierschutzverein Muenchen: ++ Simba 
+2024-02-20 12:45:41.874694 - Hamburger Tierschutzverein: ++ Jackie & Matteo & Jasper & Stella & Oliver & Thorben & Zimba & Nola & Mausi, Schnuckelchen & Belli & Lukas & Urmelchen & Sec 
+2024-02-20 12:45:43.525391 - Hamburger Tierschutzverein: -- Fauchi & Lola & Finn 
+2024-02-20 12:45:46.405184 - Tierschutzverein Muenchen: ++ Ella 
+2024-02-20 12:45:48.011544 - Tierschutzverein Muenchen: -- Felix-Flausch & Sissy 
+2024-02-21 18:18:45.982508 - Tierheim Karlsruhe: ++ Zola & Toffee & Hazel 
+2024-02-21 18:18:48.638428 - Tierschutzverein Heilbronn: ++ Chiara & Chris 
+2024-02-21 18:18:50.535420 - Tierschutzverein Heilbronn: -- Cherry & Balduin 
+2024-02-21 18:18:52.052686 - Tierheim Koeln Dellbrueck: -- Felix & Loki & Uschi 
+2024-02-21 18:18:54.522905 - Hamburger Tierschutzverein: -- Jasper 
+2024-02-22 12:06:05.888726 - Tierschutzverein Heilbronn: ++ Aronia & Aaron 
+2024-02-22 12:06:08.563244 - Tierschutzverein Heilbronn: -- Chris & Chiara 
+2024-02-22 14:54:32.358906 - Tierheim Koeln Dellbrueck: ++ Meister Schwarzrock 
+2024-02-22 14:54:38.845723 - Hamburger Tierschutzverein: -- Jackie & Matteo & Stella & Lukas 
+2024-02-22 14:54:39.976109 - Tierschutzverein Muenchen: -- Simba 
+2024-02-23 18:52:44.814535 - Tierheim Karlsruhe: -- Zeus & Kaleeshi 
+2024-02-23 18:52:46.144356 - Tierheim Ludwigshafen: ++ Van Gogh, Picasso, Da Vinci & Frida Kahlo 
+2024-02-23 18:52:47.950292 - Tierheim Ludwigshafen: -- Monet, Van Gogh, Picasso, Da Vinci & Frida Kahlo & Lumi 
+2024-02-23 18:53:41.297928 - Hamburger Tierschutzverein: ++ Amadeus & Lillet & Snow & Akela, Amber, Aurelia 
+2024-02-23 18:53:42.635972 - Hamburger Tierschutzverein: -- Luna & Zimba & Nola 
+2024-02-23 18:53:53.882575 - Tierschutzverein Muenchen: ++ Tamina & Hubsi & Yumiko & Donna & Nonny & Higor/Bagira & Mimi & Kasha & Biscuit & Simba & Leonie & Sudoku & Sultan & Linda & Fini & Pizquillo & Santa & Urmel & Zora & Xaver & Paul 
+2024-02-24 14:08:56.095665 - Tierschutzverein Muenchen: ++ Phoebe & Tootsie 
+2024-02-24 14:08:57.100321 - Tierschutzverein Muenchen: -- Bartholomäus 
+2024-02-25 13:48:43.895942 - Tierheim Karlsruhe: -- Pocky 
+2024-02-25 13:48:44.598377 - Tierheim Koeln Dellbrueck: -- Willi & Tiger & Balou 
+2024-02-25 13:48:46.377831 - Tierheim Saarbruecken: -- Finn & Linette 
+2024-02-26 14:01:51.423625 - Hamburger Tierschutzverein: -- Oliver & Thorben & Urmelchen 
+2024-02-26 14:01:53.454548 - Tierschutz Osnabrueck: -- Trude 
+2024-02-27 11:23:23.671380 - Hamburger Tierschutzverein: ++ Ellie & Joris & Mausi & Schnuckelchen & Pommes 
+2024-02-27 11:23:26.473202 - Hamburger Tierschutzverein: -- Mausi, Schnuckelchen & Belli 2024-02-27 11:33:30.698360 - Tierheim Saarbruecken: ++ Eliot, Elisa, Elfie, Elias 
+2024-02-27 11:33:30.884203 - Tierheim Saarbruecken: -- Eliot, Elvis, Elisa, Elfie, Elias 
+2024-03-02 21:34:58.513603 - Hamburger Tierschutzverein: -- Amadeus & Snow 
+2024-03-02 21:35:01.462436 - Tierheim Mainz: -- Maleo & Skilla 
+2024-03-03 14:00:05.026592 - Tierheim Karlsruhe: -- Pico 
+2024-03-03 20:51:07.135798 - Tierschutzverein Heilbronn: ++ Chris & Chiara 
+2024-03-03 20:51:12.338386 - Tierschutzverein Heilbronn: -- Binny & Bijou 
+2024-03-03 20:51:16.407197 - Tierheim Saarbruecken: ++ Frodo & Fiene & ! Notfall: Nebula & Shiro & Tabea & Casanova & Emilia 
+2024-03-03 20:51:23.864627 - Tierheim Saarbruecken: -- Lola 
+2024-03-04 22:22:11.447571 - Hamburger Tierschutzverein: -- Joris & Mausi & Lillet 
+2024-03-05 12:06:04.706141 - Tierschutzverein Heilbronn: ++ Buzz, Jessie, Woody & Casper 
+2024-03-05 12:06:07.754454 - Tierschutzverein Heilbronn: -- Chiara & Chris 
+2024-03-05 12:06:11.147018 - Hamburger Tierschutzverein: ++ Henry & Felix 
+2024-03-05 17:38:36.443419 - Tierheim Koeln Dellbrueck: ++ Mishu & Lucky & Loki 
+2024-03-05 23:10:34.533609 - Hamburger Tierschutzverein: ++ Luna & Pumpkin & Mister X & Flusel 
+2024-03-06 12:22:55.401292 - Hamburger Tierschutzverein: ++ Erik & Hannes & Ruby, Pünktchen & Luki & Anton 
+2024-03-07 11:56:50.636755 - Tierheim Karlsruhe: ++ Abigail & Toulouse & Marie, Swingy & Thomas O´Malley 
+2024-03-07 11:56:54.768947 - Hamburger Tierschutzverein: ++ Nala 
+2024-03-07 11:56:55.789443 - Hamburger Tierschutzverein: -- Pommes 
+2024-03-07 22:30:17.205652 - Tierheim Ludwigshafen: ++ Dexter & Lavendel & Friedrich 
+2024-03-08 11:01:59.935546 - Hamburger Tierschutzverein: ++ Rehchen 
+2024-03-08 23:16:46.228954 - Tierheim Karlsruhe: -- Bibi 
+2024-03-08 23:16:48.261727 - Hamburger Tierschutzverein: -- Henry & Bella & Erika & Anton 
+2024-03-09 11:40:06.275333 - Tierheim Koeln Dellbrueck: -- Mishu 
+2024-03-09 11:40:08.718463 - Tierheim Ludwigshafen: -- Rosa & Summer & Mr. Spex 
+2024-03-12 13:04:59.389751 - Tierheim Koeln Dellbrueck: ++ Balou 
+2024-03-12 13:05:01.311119 - Tierheim Saarbruecken: -- Ulla & Shiro & Lina & Emilia & Casanova & Fiene 
+2024-03-12 13:05:04.271005 - Hamburger Tierschutzverein: ++ James & Günther & Elanor & Walther 
+2024-03-12 13:05:08.739629 - Hamburger Tierschutzverein: -- Pumpkin & Flusel & Luna 
+2024-03-12 13:05:12.975676 - Tierheim Mainz: ++ Baila, Bibi & Babsi & Bounty 
+2024-03-12 13:05:16.701171 - Tierschutz Osnabrueck: -- Rico, Tilo, Pino & Nino 
+2024-03-14 15:30:49.752930 - Hamburger Tierschutzverein: -- Lupin & Sec & Elanor 
+2024-03-14 15:30:54.108709 - Tierheim Mainz: ++ Lee Monade 
+2024-03-14 15:30:54.931682 - Tierheim Mainz: -- Suleika 
+2024-03-14 15:30:56.085202 - Tierschutz Osnabrueck: -- Percy & Digger 
+2024-03-14 16:48:56.190129 - Hamburger Tierschutzverein: -- Rehchen 
+2024-03-15 14:43:10.539370 - Hamburger Tierschutzverein: ++ Inspector 
+2024-03-15 16:45:39.912901 - Hamburger Tierschutzverein: ++ Cuisine & Dicki 
+2024-03-15 16:45:42.551434 - Hamburger Tierschutzverein: -- Erik 
+2024-03-16 10:18:23.724375 - Tierheim Saarbruecken: -- Happy, Gipsy, Indira 
+2024-03-21 14:47:02.499830 - Tierschutzverein Heilbronn: ++ Bunny 
+2024-03-21 14:47:03.482386 - Tierschutzverein Heilbronn: -- Casper 
+2024-03-21 14:47:04.244064 - Tierheim Ludwigshafen: -- Tabaluga & Dexter 
+2024-03-22 14:59:29.835610 - Hamburger Tierschutzverein: ++ Samira & Matilda & Jule & Nele & Lilly & Lotta & Lothar & Potter 
+2024-03-23 10:48:08.937680 - Tierschutzverein Heilbronn: ++ Aari & Abu 
+2024-03-23 10:48:10.894069 - Tierschutzverein Heilbronn: -- Carter & Casey 
+2024-03-24 14:33:01.259526 - Tierheim Karlsruhe: -- Zola & Hazel 
+2024-03-24 14:33:05.749869 - Tierschutzverein Heilbronn: ++ Carter 
+2024-03-24 14:33:06.464273 - Tierschutzverein Heilbronn: -- Blair 
+2024-03-25 10:50:54.079967 - Hamburger Tierschutzverein: -- Nala 
+2024-03-25 18:23:53.790689 - Hamburger Tierschutzverein: ++ Snow 
+2024-03-26 11:32:06.570662 - Tierschutzverein Heilbronn: ++ Aslan & Biestli 
+2024-03-26 11:32:08.654746 - Tierschutzverein Heilbronn: -- Carter 
+2024-03-26 11:32:09.786166 - Tierheim Ludwigshafen: ++ Phineas 
+2024-03-26 11:32:10.541324 - Tierheim Ludwigshafen: -- Dracula 
+2024-03-27 09:57:12.425030 - Tierheim Karlsruhe: -- Toffee 
+2024-03-27 09:57:13.625763 - Tierheim Saarbruecken: ++ Maxi & Noel 
+2024-03-27 17:02:03.712407 - Tierheim Saarbruecken: ++ Chara 
+2024-03-27 17:02:09.093167 - Tierheim Saarbruecken: -- Tabea 
+2024-03-28 10:56:18.714052 - Hamburger Tierschutzverein: -- James & Snow 
+2024-03-29 11:10:33.831070 - Tierheim Saarbruecken: -- Chara 
+2024-03-29 11:10:37.204433 - Tierheim Ludwigshafen: -- Pikatzo & Brownie & Fino & Lavendel 
+2024-03-30 11:26:33.411287 - Tierheim Koeln Dellbrueck: -- Piefke & Lucky & Loki 
+2024-03-31 17:19:44.254802 - Tierheim Karlsruhe: ++ Tom 
+2024-04-01 11:23:30.859409 - Tierschutzverein Heilbronn: ++ Casper & Casey & Carter 
+2024-04-01 11:23:33.479387 - Tierschutzverein Heilbronn: -- Bina & Bubbles & Barisa 
+2024-04-01 11:23:35.743656 - Tierheim Ludwigshafen: -- Ojo, Trilo, Pip, Pop & Tata & Van Gogh, Picasso, Da Vinci & Frida Kahlo 
+2024-04-02 15:57:15.589553 - Hamburger Tierschutzverein: -- Samira 
+2024-04-04 11:14:27.470430 - Hamburger Tierschutzverein: ++ Gizma 
+2024-04-04 12:39:23.450676 - Hamburger Tierschutzverein: ++ Nala 
+2024-04-04 13:58:55.734007 - Tierheim Saarbruecken: -- Mira & Mara 
+2024-04-05 14:29:30.919997 - Tierheim Saarbruecken: -- Kitty & Felix 
+2024-04-05 14:29:51.134653 - Hamburger Tierschutzverein: ++ Danger & Mila & Isabel & Robert & Jessy & Edith 
+2024-04-05 17:01:54.520105 - Hamburger Tierschutzverein: ++ Mamotschi & Galina 
+2024-04-06 11:20:26.195593 - Tierheim Ludwigshafen: ++ Terra & Pepper 
+2024-04-11 12:35:08.568302 - Tierheim Saarbruecken: ++ Emilia & Kami & Theo & Pepino & Santo 
+2024-04-11 12:35:12.676043 - Tierheim Saarbruecken: -- Maxi & Noel 
+2024-04-11 12:35:16.328737 - Tierheim Ludwigshafen: ++ Fleur & Carl 
+2024-04-11 12:35:18.881315 - Hamburger Tierschutzverein: ++ Brixton & Bridget & Beatrice & Hanna & Yuki & Hanno & Lasse & Cecily, Camille & Constance & Bella & Isi 
+2024-04-11 12:35:21.467186 - Hamburger Tierschutzverein: -- Nala & Danger & Mila & Die Schöne & Mamotschi & Matilda 
+2024-04-11 12:35:23.415907 - Tierheim Mainz: ++ Schmendrik & Savas & Traudel & Lore 
+2024-04-11 12:35:24.952413 - Tierheim Mainz: -- Lee Monade & Mira 
+2024-04-11 15:58:21.375062 - Hamburger Tierschutzverein: -- Potter 
+2024-04-12 13:22:04.613385 - Hamburger Tierschutzverein: ++ Toni & Luca 
+2024-04-12 13:22:06.412441 - Tierschutz Osnabrueck: -- Happy & Pascha & Tom & Jerry 
+2024-04-13 15:29:59.639313 - Tierheim Koeln Dellbrueck: ++ Fergus & Albus & Sheldon & Fräulein Rottenmeier 
+2024-04-14 13:41:57.667498 - Tierschutzverein Heilbronn: ++ Blitz, Knopf, Lava 
+2024-04-14 13:41:59.135456 - Tierschutzverein Heilbronn: -- Casper 
+2024-04-14 13:42:00.081869 - Tierheim Saarbruecken: -- Milcky & Milck & Julie & Florian 
+2024-04-15 12:13:44.447442 - Hamburger Tierschutzverein: -- Ruby, Pünktchen & Luki & Cecily, Camille & Constance & Galina 
+2024-04-15 16:40:22.992983 - Tierheim Karlsruhe: ++ Mimi & Charlie 
+2024-04-15 16:40:30.126354 - Hamburger Tierschutzverein: -- Hanno & Gizma & Brixton 
+2024-04-15 16:40:32.211124 - Tierschutz Osnabrueck: ++ Klöppschen & Xaden 
+2024-04-16 19:35:40.147602 - Tierheim Koeln Dellbrueck: -- Meister Schwarzrock & Gitte 
+2024-04-16 19:35:52.223927 - Hamburger Tierschutzverein: ++ Jakob & Gundula 
+2024-04-16 19:35:55.258819 - Hamburger Tierschutzverein: -- Hanna & Yuki 
+2024-04-17 14:59:44.745273 - Hamburger Tierschutzverein: ++ Schmüsel 
+2024-04-17 14:59:46.015446 - Hamburger Tierschutzverein: -- Lilly 
+2024-04-17 22:03:35.341356 - Hamburger Tierschutzverein: -- Hannes & Isabel 
+2024-04-18 11:30:14.016129 - Tierschutzverein Heilbronn: ++ Cleo & Casper 
+2024-04-18 11:30:17.011942 - Tierschutzverein Heilbronn: -- Buzz, Jessie, Woody – Reserviert & Blitz, Knopf, Lava 
+2024-04-18 19:52:05.543817 - Hamburger Tierschutzverein: -- Jana 
+2024-04-18 19:52:08.769924 - Tierschutz Osnabrueck: ++ Anastasia, Archie & Anton 
+2024-04-20 13:24:29.560607 - Tierschutzverein Heilbronn: ++ Caspar 
+2024-04-20 13:24:31.093550 - Tierschutzverein Heilbronn: -- Cleo 
+2024-04-20 13:24:32.690229 - Tierheim Ludwigshafen: -- Friedrich 
+2024-04-20 13:24:34.024878 - Hamburger Tierschutzverein: -- Jakob & Isi & Lotta & Lothar 
+2024-04-22 11:49:13.340650 - Tierschutzverein Heilbronn: ++ Cleo 
+2024-04-22 11:49:14.733470 - Tierschutzverein Heilbronn: -- Caspar 
+2024-04-22 11:49:16.929422 - Hamburger Tierschutzverein: ++ Livia & Divina 
+2024-04-23 15:13:58.442240 - Tierheim Ludwigshafen: ++ Esther & Deliah & Fino 
+2024-04-23 15:14:02.423758 - Hamburger Tierschutzverein: ++ Julia & Kratzi & Heimdall & Fiffi 
+2024-04-23 15:14:06.927214 - Hamburger Tierschutzverein: -- Jule & Nele & Schnecke & Edith & Eric & Bridget & Beatrice 
+2024-04-24 13:38:39.189972 - Tierheim Karlsruhe: -- Simba 
+2024-04-24 13:38:40.557739 - Tierschutzverein Heilbronn: ++ Beethoven 
+2024-04-24 13:38:41.295921 - Tierschutzverein Heilbronn: -- Cleo 
+2024-04-25 12:17:37.182236 - Hamburger Tierschutzverein: ++ Lyra 
+2024-04-25 15:50:25.326475 - Tierheim Ludwigshafen: -- Monika 
+2024-04-25 15:50:27.402721 - Hamburger Tierschutzverein: ++ Mochi 
+2024-04-26 14:47:55.426270 - Tierheim Karlsruhe: -- Jacki 
+2024-04-26 14:47:56.500298 - Tierschutzverein Heilbronn: ++ Camillo, Carlo, Ciro 
+2024-04-26 14:47:57.425905 - Tierschutzverein Heilbronn: -- Casper 
+2024-04-26 14:47:59.571709 - Hamburger Tierschutzverein: -- Lasse 
+2024-04-26 14:48:01.340594 - Tierheim Mainz: ++ Hecki & Tora & Kaili, Kariba & Kalypso 
+2024-04-26 14:48:02.965143 - Tierheim Mainz: -- Bounty & Kalea & Schmendrik & Baila, Bibi & Babsi & Lore 
+2024-04-26 14:48:04.222263 - Tierschutz Osnabrueck: -- Xaden 
+2024-04-27 17:48:09.397907 - Hamburger Tierschutzverein: ++ Pria 
+2024-04-29 13:24:12.382747 - Tierschutzverein Heilbronn: ++ Casper 
+2024-04-29 13:24:14.171753 - Tierschutzverein Heilbronn: -- Beethoven 
+2024-04-29 13:24:15.145351 - Tierheim Ludwigshafen: -- Fino & Andrea 
+2024-04-29 13:24:17.392911 - Hamburger Tierschutzverein: ++ Trubadix & Fiete & Susi & Oti & Maya 
+2024-04-29 13:24:19.707842 - Hamburger Tierschutzverein: -- Cuisine 
+2024-04-30 11:02:53.955084 - Hamburger Tierschutzverein: ++ Rubbel, Knolle, Veggi, Sassel, Flupsi & Klopsi & Mercy & Mac 
+2024-04-30 11:03:03.010455 - Hamburger Tierschutzverein: -- Günther 
+2024-04-30 11:03:04.763729 - Tierschutz Osnabrueck: ++ Schnute 
+2024-05-02 16:10:32.406380 - Tierschutzverein Heilbronn: ++ Carino & Biestli 
+2024-05-02 16:10:35.849988 - Tierschutzverein Heilbronn: -- Casey & Casper 
+2024-05-02 16:10:41.403017 - Hamburger Tierschutzverein: -- Fiete 
+2024-05-03 15:10:06.522019 - Hamburger Tierschutzverein: ++ Trissi & Petra & Brummbär & Sabrina & Melodie & Iyun 
+2024-05-03 15:10:11.576683 - Hamburger Tierschutzverein: -- Toni & Luca 
+2024-05-03 19:03:59.981292 - Hamburger Tierschutzverein: -- Livia & Divina 
+2024-05-04 15:55:07.316153 - Tierheim Karlsruhe: -- Ju 
+2024-05-04 15:55:08.938185 - Tierheim Koeln Dellbrueck: -- Fergus & Albus 
+2024-05-04 15:55:13.757925 - Hamburger Tierschutzverein: -- Kratzi & Heimdall 
+2024-05-06 11:59:12.842125 - Tierschutzverein Heilbronn: ++ Casper & Cleo & Casey 
+2024-05-06 11:59:15.654463 - Tierschutzverein Heilbronn: -- Buster & Addison & Anouk 
+2024-05-06 11:59:17.507453 - Tierheim Saarbruecken: ++ Colette 
+2024-05-06 11:59:18.832653 - Tierheim Saarbruecken: -- Theo & Emilia 
+2024-05-08 11:34:42.853103 - Tierheim Koeln Dellbrueck: ++ Jack & Jolanda & Mampf-Fred 
+2024-05-08 11:34:45.599696 - Tierheim Saarbruecken: ++ Kai, Kira, Luca, Rudi & Valentina & Valeska 
+2024-05-08 11:34:51.106925 - Tierschutz Osnabrueck: ++ Kathi & Malte & Zoe 
+2024-05-08 17:32:30.717683 - Hamburger Tierschutzverein: -- Sabrina & Trissi & Oti & Fiffi 
+2024-05-09 12:08:25.454657 - Tierheim Ludwigshafen: -- Terra & Pepper 
+2024-05-10 17:30:45.613446 - Hamburger Tierschutzverein: ++ Sasu & Der Hauptmann 
+2024-05-10 17:30:49.034520 - Hamburger Tierschutzverein: -- Melodie 
+2024-05-12 20:48:15.748616 - Tierschutzverein Heilbronn: ++ Cosimo & Cole & Colin 
+2024-05-12 20:48:18.234858 - Tierschutzverein Heilbronn: -- Aronia & Aaron & Cleo 
+2024-05-13 13:05:01.457371 - Tierschutzverein Heilbronn: ++ Boncuk 
+2024-05-13 13:05:02.573191 - Tierschutzverein Heilbronn: -- Cosimo 
+2024-05-13 13:05:04.591986 - Hamburger Tierschutzverein: ++ Chester & Elise & Gisbert 
+2024-05-14 15:26:35.106588 - Tierschutzverein Heilbronn: ++ Daggy & Cosimo 
+2024-05-14 15:26:37.239308 - Tierschutzverein Heilbronn: -- Barracuda & Baskana 
+2024-05-14 15:26:40.377704 - Tierheim Saarbruecken: -- Colette 
+2024-05-14 20:22:18.013711 - Hamburger Tierschutzverein: -- Pria 
+2024-05-16 14:28:23.369277 - Tierheim Saarbruecken: ++ Pan & Püppchen & Mimi 
+2024-05-16 14:28:31.317332 - Hamburger Tierschutzverein: ++ Alina & Alexandria & Allegra & Franky & Alfred & Lenny 
+2024-05-16 14:28:34.018726 - Hamburger Tierschutzverein: -- Lyra & Chester 
+2024-05-17 12:39:59.332413 - Tierschutzverein Heilbronn: ++ Beethoven 
+2024-05-17 12:40:00.813135 - Tierschutzverein Heilbronn: -- Daggy 
+2024-05-19 13:19:04.672959 - Tierheim Karlsruhe: -- Charlie 
+2024-05-19 13:19:06.293407 - Tierheim Koeln Dellbrueck: -- Jack & Jolanda 
+2024-05-19 13:19:10.176010 - Hamburger Tierschutzverein: -- Alexandria & Allegra & Gundula 
+2024-05-19 13:19:11.592997 - Tierheim Mainz: ++ Livia & Nobu & Lussy 
+2024-05-21 12:45:59.118832 - Hamburger Tierschutzverein: -- Bob & Rubbel & Sassel & Robert 
+2024-05-21 12:46:02.591314 - Tierheim Mainz: -- Livia & Savas & Traudel & Ibot 
+2024-05-21 15:20:15.693502 - Hamburger Tierschutzverein: ++ Jonny & Pepper & Diana 
+2024-05-21 15:20:21.789294 - Hamburger Tierschutzverein: -- Mac 
+2024-05-21 21:21:48.038857 - Tierheim Saarbruecken: ++ Alfred & Leonardo & Paris & Tobi & Falco 
+2024-05-21 21:21:51.846469 - Tierheim Ludwigshafen: ++ Terra & Pepper 
+2024-05-25 13:01:10.826484 - Tierschutzverein Heilbronn: ++ Ace 
+2024-05-25 13:01:12.751466 - Tierschutzverein Heilbronn: -- Cosimo 
+2024-05-25 13:01:16.337158 - Hamburger Tierschutzverein: ++ Madonna & Knöpfchen & Flitzie & Veilchen & Constance & Mila & Spot & Merlin 
+2024-05-25 13:01:20.109188 - Hamburger Tierschutzverein: -- Petra & Fiete 
+2024-05-27 17:18:50.553591 - Tierschutzverein Heilbronn: ++ Betty & Cosimo & Damian & Didi 
+2024-05-27 17:18:53.112003 - Tierschutzverein Heilbronn: -- Colin & Bunny & Casper 
+2024-05-27 17:18:55.238214 - Tierheim Saarbruecken: -- Mimi & Falco 
+2024-05-27 17:18:59.164736 - Tierheim Ludwigshafen: -- Carl & Fleur & Phineas 
+2024-05-28 20:47:34.963052 - Tierheim Ludwigshafen: ++ Prue & Mina 
+2024-05-29 00:33:46.699178 - Tierheim Ludwigshafen: -- Winter & Autumn 
+2024-05-29 12:37:22.749102 - Tierheim Saarbruecken: ++ ! Notfall: Lisa 
+2024-05-29 12:37:27.020583 - Hamburger Tierschutzverein: ++ Einstein & Rocket & Blümchen & Scarlett & Sören & Emmi & Rakete & Mimi & Lola 
+2024-05-31 09:50:32.801327 - Tierheim Ludwigshafen: ++ Kitten 
+2024-05-31 09:50:35.209100 - Hamburger Tierschutzverein: ++ Miron & Alisa 
+2024-05-31 09:50:36.126972 - Hamburger Tierschutzverein: -- Emmi & Spot & Mila 
+2024-05-31 17:14:05.439478 - Hamburger Tierschutzverein: -- Rakete 
+2024-06-03 18:32:35.466861 - Tierheim Saarbruecken: -- Paris 
+2024-06-03 18:32:37.652361 - Hamburger Tierschutzverein: -- Anni 
+2024-06-04 16:23:30.802716 - Tierheim Koeln Dellbrueck: -- Mirella 
+2024-06-04 16:23:32.866024 - Tierheim Mainz: -- Tila Twilight & Satty & Tamika 
+2024-06-04 16:23:34.724204 - Tierschutz Osnabrueck: -- Mogli 
+2024-06-05 13:33:31.788627 - Tierschutzverein Heilbronn: ++ Diego & Dustin & Darleen & Doro 
+2024-06-05 13:33:33.947806 - Tierschutzverein Heilbronn: -- Aslan & Biestli & Boncuk & Betty 
+2024-06-05 13:33:37.665387 - Hamburger Tierschutzverein: ++ Emmi & Aurora & Fabian & Merlin & Timo 
+2024-06-05 18:03:59.061835 - Tierheim Koeln Dellbrueck: ++ Sylke & Quinn 
+2024-06-05 18:04:04.155971 - Hamburger Tierschutzverein: -- Miron & Alisa 
+2024-06-06 10:41:50.131034 - Hamburger Tierschutzverein: -- Sören 
+2024-06-08 12:00:19.725242 - Tierschutzverein Heilbronn: ++ Daisy & Donald 
+2024-06-08 12:00:22.105671 - Tierschutzverein Heilbronn: -- Abu & Aari 
+2024-06-08 12:00:25.123351 - Hamburger Tierschutzverein: ++ Venus 
+2024-06-08 12:00:27.848890 - Hamburger Tierschutzverein: -- Madonna & Alina & Blümchen 
+2024-06-10 15:19:16.514936 - Hamburger Tierschutzverein: ++ Milo & Marshmallow & Louisa 
+2024-06-10 15:19:19.482741 - Hamburger Tierschutzverein: -- Emmi & Aurora & Fabian 
+2024-06-12 16:18:06.101253 - Tierheim Karlsruhe: ++ Luna 
+2024-06-12 16:18:08.489669 - Hamburger Tierschutzverein: ++ Goffy & Caspar & Heimdall 
+2024-06-12 16:18:11.047311 - Hamburger Tierschutzverein: -- Knöpfchen & Flitzie 
+2024-06-12 20:45:15.065725 - Hamburger Tierschutzverein: -- Marshmallow 
+2024-06-13 16:19:56.180595 - Tierheim Karlsruhe: ++ Bona 
+2024-06-13 16:19:57.253173 - Tierheim Karlsruhe: -- Mimi 
+2024-06-13 16:19:58.540490 - Tierheim Saarbruecken: -- Tobi & Santo & Frodo & Pan & Püppchen 
+2024-06-13 16:20:02.504483 - Hamburger Tierschutzverein: ++ Elsa 
+2024-06-14 09:50:05.322853 - Tierschutzverein Heilbronn: ++ Bali & Alice & Anton 
+2024-06-14 09:50:08.295390 - Tierschutzverein Heilbronn: -- Donald & Doro 
+2024-06-17 15:18:27.725233 - Tierschutzverein Heilbronn: ++ Doro 
+2024-06-17 15:18:29.182416 - Tierschutzverein Heilbronn: -- Daisy 
+2024-06-17 15:18:30.746783 - Tierheim Saarbruecken: ++ Cuba & Romy & Malek & Jane & Giulia & Nevin 
+2024-06-18 15:38:22.127643 - Tierschutzverein Heilbronn: ++ Angie, Anna, Benny, Björn 
+2024-06-18 15:38:28.136450 - Tierschutzverein Heilbronn: -- Doro 
+2024-06-18 15:38:29.355564 - Tierheim Koeln Dellbrueck: ++ Lisa 
+2024-06-18 15:38:37.162157 - Hamburger Tierschutzverein: -- Venus & Scarlett & Lola 
+2024-06-18 15:38:47.567960 - Tierschutz Osnabrueck: -- Karla 
+2024-06-19 18:26:24.703939 - Hamburger Tierschutzverein: -- Louisa 
+2024-06-20 15:26:54.120058 - Tierschutzverein Heilbronn: ++ Doro 
+2024-06-20 15:26:55.548906 - Tierschutzverein Heilbronn: -- Alice & Anton 
+2024-06-20 15:26:58.175992 - Hamburger Tierschutzverein: ++ Minnos 
+2024-07-02 13:16:32.658567 - Tierheim Karlsruhe: ++ Leon 
+2024-07-02 13:16:34.177988 - Tierheim Karlsruhe: -- Marie, Swingy & Thomas O´Malley 
+2024-07-02 13:16:35.767387 - Tierheim Koeln Dellbrueck: ++ Felicitas & Lilian & Biscuit 
+2024-07-02 13:16:38.949437 - Tierheim Koeln Dellbrueck: -- Fräulein Rottenmeier & Mama Ricotta & Sheldon 
+2024-07-02 13:16:40.730558 - Tierheim Saarbruecken: ++ Kitten Von Marie 
+2024-07-02 13:16:41.678939 - Tierheim Saarbruecken: -- ! Notfall ! Nebula & ! Notfall ! Lisa & Jane 
+2024-07-02 13:34:57.203844 - Hamburger Tierschutzverein: ++ Fips & Millie & Leo & Leni & Lucy & Lilly & Olle & Luise & Blümchen 
+2024-07-02 13:35:00.388956 - Hamburger Tierschutzverein: -- Merlin & Minnos & Heimdall & Goffy & Edith 
+2024-07-02 13:35:03.809672 - Tierheim Mainz: ++ Ottilia & Nele & Livia & Lupo & Lumi & Masha & Leni & Nila & Kailo 
+2024-07-02 13:35:04.961096 - Tierheim Mainz: -- Kaili, Kariba & Kalypso 
+2024-07-02 15:19:27.698456 - Tierheim Koeln Dellbrueck: -- Lisa 
+2024-07-02 15:19:34.570049 - Hamburger Tierschutzverein: ++ Tortelloni & Riccioli 
+2024-07-05 16:25:23.408990 - Tierheim Karlsruhe: ++ Else & Lieschen & Danny & Kim 
+2024-07-05 16:25:24.992323 - Tierschutzverein Heilbronn: ++ Chili 
+2024-07-05 16:25:25.954231 - Tierschutzverein Heilbronn: -- Doro 
+2024-07-05 16:25:26.850433 - Tierheim Koeln Dellbrueck: ++ Sheldon 
+2024-07-05 16:25:42.927351 - Hamburger Tierschutzverein: -- Milo & Millie & Blümchen & Martin 
+2024-07-05 16:25:45.187190 - Tierschutz Osnabrueck: -- Frieda & Findus 
+2024-07-09 16:21:26.392810 - Tierschutzverein Heilbronn: ++ Brioche & Baronessa & Betty & Blanche 
+2024-07-09 16:21:29.737314 - Tierschutzverein Heilbronn: -- Damian & Didi & Diego & Darleen & Donald 
+2024-07-09 16:21:34.666059 - Hamburger Tierschutzverein: ++ Beyaz & Die Kitten-Tagesstätte & Carl & Kismo & Yumi & Garfield & Karolina & Lorelai 
+2024-07-09 16:21:36.621086 - Hamburger Tierschutzverein: -- Rocket & Luise & Leo & Leni 
+2024-07-09 16:21:38.494487 - Tierheim Mainz: ++ Miro, Maggy & Marie & Tilda & Sakura & Smoky & Loona & Lilly & Anis 
+2024-07-09 16:21:40.522236 - Tierheim Mainz: -- Tora & Nobu & Ottilia 
+2024-07-11 14:36:08.499460 - Tierschutzverein Heilbronn: ++ Amy 
+2024-07-11 14:36:10.549991 - Tierschutzverein Heilbronn: -- Angie, Anna, Benny, Björn – Reserviert 
+2024-07-11 14:36:11.748109 - Tierheim Koeln Dellbrueck: ++ Vicky & Mandy & Wachtmeister Museal & Rabe Rudi & Clover & Taragon 
+2024-07-11 14:36:15.497871 - Hamburger Tierschutzverein: ++ Santos & Dörte & Harry 
+2024-07-11 14:36:18.404887 - Hamburger Tierschutzverein: -- Olle & Merlin & Timo 
+2024-07-13 13:27:13.469531 - Tierschutzverein Heilbronn: ++ Damian & Didi 
+2024-07-13 13:27:14.896593 - Tierschutzverein Heilbronn: -- Daisy 
+2024-07-13 13:27:16.252830 - Tierheim Koeln Dellbrueck: ++ Dennis 
+2024-07-13 13:27:17.755145 - Hamburger Tierschutzverein: -- Der Hauptmann & Lucy & Lilly & Garfield 
+2024-07-14 19:48:38.675073 - Tierheim Ludwigshafen: -- Hänsel 
+2024-07-16 17:58:30.795804 - Tierheim Koeln Dellbrueck: ++ Anne, Finnley, Clementine, Lemon 
+2024-07-16 17:58:32.644494 - Tierheim Ludwigshafen: -- Pepper & Prue & Terra 
+2024-07-16 17:58:36.914503 - Hamburger Tierschutzverein: ++ Josie & James & Leonard, Howard & Sheldon 
+2024-07-16 17:58:41.651339 - Hamburger Tierschutzverein: -- Alfred 
+2024-07-18 14:27:57.994383 - Tierschutzverein Heilbronn: ++ Darleen 
+2024-07-18 14:28:00.355989 - Tierschutzverein Heilbronn: -- Baronessa 
+2024-07-18 14:28:03.132677 - Tierheim Koeln Dellbrueck: ++ Rosemary & Hedda 
+2024-07-18 14:28:06.258944 - Tierheim Koeln Dellbrueck: -- Sylke & Mandy 
+2024-07-18 14:28:12.187689 - Hamburger Tierschutzverein: ++ Alex & Püppi & Jonny & Cloudy 
+2024-07-18 14:28:20.231685 - Hamburger Tierschutzverein: -- Murphy 
+2024-07-18 20:45:11.949380 - Hamburger Tierschutzverein: -- Dörte & Harry & Billy 
+2024-07-20 12:50:33.858075 - Tierschutzverein Heilbronn: ++ Daisy & Amaya 
+2024-07-20 12:50:37.176817 - Tierschutzverein Heilbronn: -- Damian & Didi & Darleen 
+2024-07-20 12:50:39.878051 - Hamburger Tierschutzverein: -- Karolina 
+2024-07-22 17:03:21.356575 - Tierheim Karlsruhe: ++ Foxi + Siema & Jack 
+2024-07-22 17:03:23.858481 - Tierheim Karlsruhe: -- Luna 
+2024-07-22 17:03:24.911451 - Tierheim Koeln Dellbrueck: -- Anne, Finnley, Clementine, Lemon 
+2024-07-22 17:03:27.190278 - Tierheim Ludwigshafen: ++ Zeus 
+2024-07-23 19:11:49.774391 - Tierheim Koeln Dellbrueck: -- Vicky 
+2024-07-23 19:11:51.809465 - Hamburger Tierschutzverein: -- Sissi 
+2024-07-24 18:40:42.447854 - Tierschutzverein Heilbronn: ++ Damian & Didi 
+2024-07-24 18:40:44.025312 - Tierschutzverein Heilbronn: -- Daisy 
+2024-07-24 18:40:44.974066 - Tierheim Koeln Dellbrueck: ++ Belinda 
+2024-07-24 18:40:45.774211 - Tierheim Koeln Dellbrueck: -- Quinn & Rosemary 
+2024-07-24 18:40:48.560192 - Tierheim Ludwigshafen: ++ Dunchesse & Mila & Eric 
+2024-07-24 18:40:50.741637 - Hamburger Tierschutzverein: ++ Flora & Freddy & Maria & Balou & Kaia & Nalu 
+2024-07-24 18:40:53.417795 - Hamburger Tierschutzverein: -- Die Kitten-Tagesstätte & Fips 
+2024-07-25 14:27:48.898129 - Tierschutzverein Heilbronn: ++ Beauty & Bones & Booth 
+2024-07-25 14:27:50.827545 - Tierschutzverein Heilbronn: -- Damian & Didi & Amy 
+2024-07-25 14:27:53.104476 - Tierheim Koeln Dellbrueck: -- Wachtmeister Museal & Rabe Rudi 
+2024-07-25 14:27:54.297221 - Tierheim Ludwigshafen: ++ Kitten Auf Pflegeplatz 
+2024-07-25 14:27:56.030180 - Hamburger Tierschutzverein: ++ Nori & Jonah & Pia & Fleur & Trueman, Sylvester & Clyde 
+2024-07-25 14:27:58.470972 - Hamburger Tierschutzverein: -- Caspar & Josie & James 
+2024-07-25 14:28:04.365330 - Tierheim Mainz: -- Lupo & Lumi & Miro, Maggy & Marie & Lilly & Nila & Livia 
+2024-07-26 13:21:57.802041 - Tierheim Karlsruhe: ++ Siema 
+2024-07-26 13:21:59.166237 - Tierheim Koeln Dellbrueck: ++ Moody & Adele & Hugo 
+2024-07-26 13:22:00.975852 - Tierheim Ludwigshafen: ++ Felis & Gauner & Train & Haze & Christoph 
+2024-07-26 13:22:03.487126 - Hamburger Tierschutzverein: ++ Caralina & Milow & Kira & Nika & Olaf & Casper 
+2024-07-26 13:22:06.102383 - Hamburger Tierschutzverein: -- Kaia & Nalu & Püppi 
+2024-07-27 16:25:46.959539 - Tierheim Ludwigshafen: ++ Kitten Auf Pflegestelle 67240 
+2024-07-27 16:25:50.067550 - Hamburger Tierschutzverein: ++ Miss Marpel & Fred 
+2024-07-30 15:38:46.091403 - Tierheim Karlsruhe: ++ Joonie & Kayla & Django 
+2024-07-30 15:38:48.052643 - Tierschutzverein Heilbronn: ++ Aladin, Jasmin, Rajah & Alicia 
+2024-07-30 15:38:49.625569 - Tierschutzverein Heilbronn: -- Camillo, Carlo, Ciro – Reserviert & Cosimo 
+2024-07-30 15:38:51.804210 - Tierheim Koeln Dellbrueck: -- Clover & Taragon & Dennis & Felicitas 
+2024-07-30 15:38:55.118979 - Tierheim Saarbruecken: ++ Odin, Pina, Yogi, Winnie & Bea`S Kitten & Marie & Flecky & Luzie & Nala 
+2024-07-30 15:38:57.808566 - Hamburger Tierschutzverein: -- Nori & Jonah & Spitzmaus & Diana & Balou & Freddy & Leonard, Howard, Sheldon & Finn & Pia 
+2024-08-01 18:48:24.387134 - Tierheim Ludwigshafen: -- Kitten Auf Pflegestelle 67240 
+2024-08-01 18:48:27.404600 - Hamburger Tierschutzverein: -- Mochi 
+2024-08-02 14:54:27.733131 - Hamburger Tierschutzverein: ++ Kovo & Flip & Herr Murkel & Kasperle & Malika & Der Captain & Cleo 
+2024-08-03 12:19:42.314545 - Hamburger Tierschutzverein: -- Maria & Beyaz & Kasperle 
+2024-08-08 14:30:14.350823 - Tierheim Karlsruhe: -- Abigail & Toulouse 
+2024-08-08 14:30:19.745120 - Tierschutzverein Heilbronn: ++ Damian & Didi & Cosimo & Dabby & Delilah 
+2024-08-08 14:30:22.313499 - Tierschutzverein Heilbronn: -- Aladin, Jasmin, Rajah & Beauty & Blade 
+2024-08-08 14:30:24.894938 - Tierheim Koeln Dellbrueck: ++ Amun & Klausi & Palina & Harold & Ursel 
+2024-08-08 14:30:27.172617 - Tierheim Koeln Dellbrueck: -- Lilian & Biscuit & Balou & Adele & Hugo 
+2024-08-08 14:30:29.217297 - Tierheim Saarbruecken: ++ Marley & Mika & Odin, Yogi, Winnie 
+2024-08-08 14:30:32.879933 - Tierheim Saarbruecken: -- Leonardo & Bea`S Kitten & Odin, Pina, Yogi, Winnie 
+2024-08-08 14:30:35.066307 - Tierheim Ludwigshafen: -- Zeus 
+2024-08-08 14:30:37.730524 - Hamburger Tierschutzverein: ++ Pippa & Percy & Miss Minz & Madame & Amber & Azuri & Trixie & Pia & Timmi & Wilma & Romy & Otto & Sophia & Malu & Willa & Ella 
+2024-08-08 14:30:41.221228 - Hamburger Tierschutzverein: -- Miss Marpel & Cleo & Kira & Nika & Kovo & Olaf & Casper 
+2024-08-09 18:16:41.337653 - Tierheim Karlsruhe: -- Danny 
+2024-08-09 18:16:44.583499 - Tierschutzverein Heilbronn: ++ Diego & Darleen 
+2024-08-09 18:16:46.789979 - Tierschutzverein Heilbronn: -- Blanche & Brioche 
+2024-08-09 18:16:54.399900 - Hamburger Tierschutzverein: ++ Lotti 
+2024-08-09 18:16:55.913446 - Hamburger Tierschutzverein: -- Malika & Carl & Maxi & Pippa & Percy 
+2024-08-17 13:28:57.396208 - Tierschutzverein Heilbronn: ++ Amaterasu & Aaron, Alana, Alia, Anita, Arielle, Azula & Denise 
+2024-08-17 13:28:59.543830 - Tierschutzverein Heilbronn: -- Betty & Bones & Booth & Diego 
+2024-08-17 13:29:01.997319 - Tierheim Ludwigshafen: ++ Snö Auf Pflegestelle 67240 
+2024-08-17 13:29:03.252227 - Tierheim Ludwigshafen: -- Train 
+2024-08-17 13:29:05.801554 - Hamburger Tierschutzverein: ++ Stella & Pita & Mirko 
+2024-08-17 13:29:10.169913 - Hamburger Tierschutzverein: -- Fleur & Schmüsel & Trueman, Sylvester & Clyde & Malu & Santos & Trixie & Der Captain & Otto & Iyun & Romy 
+2024-08-17 13:29:12.351175 - Tierheim Mainz: -- Leni & Kailo 
+2024-08-17 18:22:46.608148 - Tierheim Koeln Dellbrueck: -- Schnurri & Mausi & Fleur & Palina & Klausi 
+2024-08-20 15:24:38.525640 - Tierschutzverein Heilbronn: ++ Charly 
+2024-08-20 15:24:40.788496 - Tierschutzverein Heilbronn: -- Darleen 
+2024-08-20 15:24:41.653705 - Tierheim Koeln Dellbrueck: -- Trude Herr 
+2024-08-20 15:24:42.309720 - Tierheim Saarbruecken: -- Marley & Mika 
+2024-08-20 15:25:50.874130 - Hamburger Tierschutzverein: ++ Punkt, Krabbe & Wusel & Silly & Pepita & Ruma 
+2024-08-20 15:25:53.364383 - Hamburger Tierschutzverein: -- Mirko & Miss Minz & Madame & Pia 
+2024-08-21 16:16:01.192175 - Tierschutzverein Heilbronn: ++ Diego 
+2024-08-21 16:16:03.804977 - Tierschutzverein Heilbronn: -- Dabby & Delilah 
+2024-08-21 16:16:07.311369 - Hamburger Tierschutzverein: ++ Fiene 
+2024-08-21 16:16:10.587124 - Hamburger Tierschutzverein: -- Sophia & Fred & Ella & Timmi & Hummelchen & Silly 
+2024-08-22 15:47:02.054507 - Tierschutzverein Heilbronn: ++ Doro 
+2024-08-22 15:47:04.065432 - Tierschutzverein Heilbronn: -- Chili 
+2024-08-22 15:47:05.428695 - Tierheim Saarbruecken: -- Luzie & Nala & Odin, Yogi, Winnie & Nevin 
+2024-08-22 18:50:03.559859 - Hamburger Tierschutzverein: -- Stella & Pita & Pepita 
+2024-08-24 14:37:36.360271 - Hamburger Tierschutzverein: -- Monsterchen & Flip 
+2024-08-27 12:32:10.783052 - Tierheim Karlsruhe: -- Kim 
+2024-08-27 12:32:13.990790 - Tierschutzverein Heilbronn: ++ Chloe & Cookie & Colin & Carlos & Bambi 
+2024-08-27 12:32:15.922023 - Tierschutzverein Heilbronn: -- Damian & Didi & Diego & Denise & Doro & Cosimo 
+2024-08-27 12:32:18.402363 - Tierheim Koeln Dellbrueck: -- Robin & Hurvinek & Ursel & Belinda & Mampf-Fred 
+2024-08-27 12:32:20.672551 - Tierheim Ludwigshafen: -- Esther & Deliah & Haze & Duchesse 
+2024-08-27 12:32:23.697224 - Hamburger Tierschutzverein: ++ Poppy & Ozzy & Bowie & Izzy 
+2024-08-27 12:32:27.442883 - Hamburger Tierschutzverein: -- Sasu & Oma Jessy & Kismo & Yumi 
+2024-08-29 11:50:04.824295 - Tierheim Koeln Dellbrueck: ++ Andy & Chase & Connie & Pongo & Patrick & Cattia & Chan & Ana & Casper & Ada & Frau Siebenstein & Pearl & Alwin 
+2024-08-29 14:19:10.295136 - Tierheim Ludwigshafen: ++ Elsa 
+2024-08-30 13:26:32.996851 - Tierschutzverein Heilbronn: ++ Betty 
+2024-08-30 13:26:42.499969 - Tierschutzverein Heilbronn: -- Cookie 
+2024-08-30 13:26:44.633129 - Hamburger Tierschutzverein: ++ Beauty & Billy 
+2024-08-30 13:26:45.840630 - Hamburger Tierschutzverein: -- Herr Murkel 
+2024-08-30 18:06:57.192134 - Tierheim Saarbruecken: ++ Suri & Yari 
+2024-09-07 14:46:04.683896 - Tierheim Karlsruhe: -- Kayla & Leon 
+2024-09-07 14:46:07.097915 - Tierheim Koeln Dellbrueck: ++ Prada & Ulrike & Cinderella & Sally & Carmen 
+2024-09-07 14:46:09.236536 - Tierheim Koeln Dellbrueck: -- Moody 
+2024-09-07 14:46:10.818460 - Tierheim Ludwigshafen: ++ Lady & Missy & Cairo & Melody & Elaria & Crème Brûlée & Skadi 
+2024-09-07 14:46:12.711992 - Tierheim Ludwigshafen: -- Snö Auf Pflegestelle 67240 
+2024-09-07 14:46:14.299123 - Hamburger Tierschutzverein: ++ Peanut & Die Kitten-Crew & Puma & Silva & Graysie & Smilla & Nenna & Herkules & Die Braut 
+2024-09-07 14:46:18.893671 - Hamburger Tierschutzverein: -- Elise & Dirk & Krabbe & Wusel & Trubadix & Amber & Azuri & Beauty & Billy & Mimi & Wilma & Bella 
+2024-09-09 15:30:26.331201 - Tierheim Koeln Dellbrueck: -- Connie & Cinderella & Andy & Patrick & Sally & Chase & Chan 
+2024-09-09 15:30:31.058237 - Hamburger Tierschutzverein: -- Die Braut & Mathilda 
+2024-09-10 15:28:51.816279 - Tierschutzverein Heilbronn: ++ Chrys 
+2024-09-10 15:28:54.744547 - Tierschutzverein Heilbronn: -- Colin 
+2024-09-10 15:28:56.069170 - Tierheim Ludwigshafen: -- Cairo & Eric 
+2024-09-10 15:28:58.481653 - Hamburger Tierschutzverein: ++ Motte & Swirl & Trubadix & Pavel 
+2024-09-10 15:29:01.337510 - Hamburger Tierschutzverein: -- Poppy & Ozzy 
+2024-09-11 17:14:22.824533 - Tierschutzverein Heilbronn: ++ Colin & Cosimo 
+2024-09-11 17:14:26.305944 - Tierschutzverein Heilbronn: -- Chucky & Bambi – Reserviert 
+2024-09-11 17:14:28.665123 - Tierheim Koeln Dellbrueck: ++ Tommy & Ronny 
+2024-09-11 17:14:31.749435 - Hamburger Tierschutzverein: ++ Cooper & Taylor 
+2024-09-11 17:14:35.105106 - Hamburger Tierschutzverein: -- Caralina & Milow & Jojo & Johnny & Franky & Silva & Graysie & Puma 
+2024-09-13 15:20:57.789284 - Tierschutzverein Heilbronn: ++ Daikiri 
+2024-09-13 15:20:59.686562 - Tierschutzverein Heilbronn: -- Beatrix 
+2024-09-13 15:21:00.578138 - Tierheim Koeln Dellbrueck: ++ Nelly 
+2024-09-13 15:21:01.385136 - Tierheim Koeln Dellbrueck: -- Alwin 
+2024-09-13 15:21:02.405704 - Tierheim Saarbruecken: -- Suri & Yari 
+2024-09-13 15:21:04.802596 - Tierheim Ludwigshafen: -- Crème Brûlée 
+2024-09-13 15:21:06.729861 - Hamburger Tierschutzverein: ++ Josy, Bonny & Clide & Tobi 
+2024-09-13 15:21:08.523759 - Hamburger Tierschutzverein: -- Smokey 
+2024-09-14 14:05:41.817350 - Tierheim Karlsruhe: -- Jack 
+2024-09-14 14:05:43.286207 - Tierschutzverein Heilbronn: ++ Damian & Didi & Dalton & Denise & Domian & Dakota & Delta & Diego 
+2024-09-14 14:05:45.104796 - Tierschutzverein Heilbronn: -- Amaya & Cole & Ace & Carlos & Carter & Chloe & Casey 
+2024-09-18 19:57:50.628830 - Tierschutzverein Heilbronn: ++ Domingo & Donjuan 
+2024-09-18 19:57:53.652576 - Tierschutzverein Heilbronn: -- Chrys & Baccardi 
+2024-09-18 19:57:55.446979 - Tierheim Koeln Dellbrueck: -- Carmen 
+2024-09-18 19:57:56.426308 - Tierheim Saarbruecken: ++ Pari & Tessa & Adrian & Laurent & Bubble & Angie & Cassandra & Cleo & Bisou 
+2024-09-18 19:57:58.757633 - Tierheim Ludwigshafen: ++ Butters & Bones & Kaiser & Aurelia & Dusty & Karma & Split & Bosch & Haribo 
+2024-09-18 19:58:02.518297 - Tierheim Ludwigshafen: -- Rubby – Hat Interessenten & Elsa 
+2024-09-18 19:58:07.264806 - Hamburger Tierschutzverein: ++ Bernie & Willi & Michel & Kismo & Yumi & Lenny & Fluffy & Furby & Mina & Knuth & Maisy & Marble 
+2024-09-18 19:58:10.940320 - Hamburger Tierschutzverein: -- Willa & Motte & Tinka & Katinka & Smilla & Nenna & Misha 
+2024-09-20 15:21:38.433941 - Tierschutzverein Heilbronn: ++ Donut 
+2024-09-20 15:21:39.872873 - Tierschutzverein Heilbronn: -- Denise 
+2024-09-20 15:21:40.833199 - Tierheim Koeln Dellbrueck: -- Ulrike & Nelly & Cattia & Casper 
+2024-09-20 18:53:35.824294 - Tierheim Saarbruecken: ++ Emmi, Dusty, Casper & Amira & Kitten Von Cassandra 
+2024-09-20 18:53:40.117617 - Tierheim Saarbruecken: -- Alfred & Valentina & Valeska & Romy 
+2024-09-20 18:53:45.964123 - Hamburger Tierschutzverein: -- Fluffy & Furby & Willi & Michel & Schmusinchen & Bernie & Bowie & Izzy & Der Franzose & Mister X 
+2024-09-20 18:53:49.690185 - Tierschutz Osnabrueck: ++ Aimee 
+2024-09-20 18:53:51.076704 - Tierschutz Osnabrueck: -- Kathi & Klöppschen & Milan & Stitch 
+2024-09-22 15:45:03.214212 - Tierheim Ludwigshafen: -- Kaiser 
+2024-09-22 19:31:51.014971 - Tierschutz Osnabrueck: ++ Püppi & Äffchen 
+2024-09-23 12:42:18.037724 - Tierheim Ludwigshafen: ++ Kitkat 
+2024-09-23 12:42:21.432080 - Hamburger Tierschutzverein: ++ Oreo & Jolie & Petersson 
+2024-09-23 12:42:23.217137 - Hamburger Tierschutzverein: -- Ruma & Knuth & Tortelloni & Jim & Jay 
+2024-09-29 19:44:36.472475 - Tierheim Karlsruhe: -- Foxi & Siema 
+2024-09-29 19:44:41.542447 - Tierschutzverein Heilbronn: ++ Cookie & Doro 
+2024-09-29 19:44:46.146801 - Tierschutzverein Heilbronn: -- Bob & Amaterasu 
+2024-09-29 19:44:49.727464 - Tierheim Koeln Dellbrueck: ++ Nashi & Avoxado & Miley & Boy George & Albano, Rufus, Tinkerbell, Abigail Albano & Elsa 
+2024-09-29 19:44:55.824471 - Tierheim Koeln Dellbrueck: -- Tommy & Ronny 
+2024-09-29 19:44:59.599502 - Tierheim Ludwigshafen: ++ Saarla & Lilo & Stitch 
+2024-09-29 19:45:03.186682 - Tierheim Ludwigshafen: -- Melody & Lady – Hat Interessenten & Missy & Chili & Butters & Bones 
+2024-09-29 19:45:23.438923 - Hamburger Tierschutzverein: ++ Alfred & Karlson & Müsli & Bärchen & Mila & Molly 
+2024-09-29 19:46:10.481884 - Hamburger Tierschutzverein: -- Pavel & Die Kitten-Crew & Peanut & Kismo & Yumi & Lenny & Jolie & Josy, Bonny & Clide & Petersson & Maisy & Marble & Oreo 
+2024-09-30 10:40:03.542826 - Tierschutzverein Heilbronn: ++ Alois, Anni, Aria & Cubbi & Sunni 
+2024-09-30 10:40:06.683842 - Tierschutzverein Heilbronn: -- Donut & Doro 
+2024-09-30 10:40:14.560639 - Hamburger Tierschutzverein: ++ Lukas & Garfield & Evchen & Jule & Mina 
+2024-09-30 10:40:17.350048 - Hamburger Tierschutzverein: -- Sylvester 
+2024-09-30 10:40:18.690910 - Tierschutz Osnabrueck: ++ Ansgar & Pilzi 
+2024-09-30 16:43:44.764331 - Tierschutzverein Heilbronn: ++ Donut 
+2024-09-30 16:43:46.334491 - Tierschutzverein Heilbronn: -- Cookie 
+2024-09-30 16:43:47.442479 - Tierheim Saarbruecken: -- Minou & Angie & Cleo 
+2024-09-30 16:43:51.597238 - Hamburger Tierschutzverein: ++ Lisa & Speedy & Dolores & Mini-Me & Baghira & Mufasa & Lucky 
+2024-09-30 16:43:54.392402 - Hamburger Tierschutzverein: -- Tobi & Lotti & Müsli & Bärchen 
+2024-09-30 21:51:35.324189 - Hamburger Tierschutzverein: ++ Lotti 
+2024-09-30 21:51:37.059870 - Hamburger Tierschutzverein: -- Herkules 
+2024-10-01 10:44:14.152806 - Tierheim Mainz: ++ Jackson & Happy & Sumi & Tara 
+2024-10-01 10:44:16.003855 - Tierheim Mainz: -- Anis & Hecki & Loona & Masha & Tilda & Sakura & Smoky & Lussy 
+2024-10-01 23:45:43.442101 - Hamburger Tierschutzverein: -- Jack 
+2024-10-01 23:45:45.385543 - Tierheim Mainz: ++ Aurora & Lisa & Fufu 
+2024-10-02 14:13:39.392112 - Hamburger Tierschutzverein: ++ Dexter & Pingo 
+2024-10-02 17:30:08.553339 - Tierheim Koeln Dellbrueck: -- Ana & Albano, Rufus, Tinkerbell, Abigail Albano & Elsa & Pearl 
+2024-10-02 17:30:15.473507 - Hamburger Tierschutzverein: ++ Nemo & Marlin & Amadeus & Leo & Püppi & Bär & Benjamin 
+2024-10-02 17:30:19.769365 - Hamburger Tierschutzverein: -- Karlson & Mila & Garfield 
+2024-10-02 22:07:54.599446 - Tierschutzverein Heilbronn: ++ Christoph 
+2024-10-02 22:07:56.023493 - Tierschutzverein Heilbronn: -- Donut 
+2024-10-03 11:15:10.010161 - Tierschutzverein Heilbronn: ++ Donut 
+2024-10-03 11:15:11.103798 - Tierschutzverein Heilbronn: -- Alana & Azula 
+2024-10-03 22:45:23.576777 - Tierheim Ludwigshafen: -- Aurelia 
+2024-10-08 18:27:49.229626 - Tierschutzverein Heilbronn: ++ Doro 
+2024-10-08 18:27:51.938481 - Tierschutzverein Heilbronn: -- Charly 
+2024-10-08 18:27:53.993989 - Tierheim Koeln Dellbrueck: -- Nashi & Avoxado & Miley 
+2024-10-08 18:27:56.443467 - Tierheim Ludwigshafen: ++ Rhea & Dori & Cora & Olly 
+2024-10-08 18:27:58.767480 - Tierheim Ludwigshafen: -- Mila & Saarla & Dusty 
+2024-10-08 18:28:03.199190 - Hamburger Tierschutzverein: ++ Fredine & Simba & Filou & Rüdiger & Emmi & Luchsy 
+2024-10-08 18:28:05.550005 - Hamburger Tierschutzverein: -- Chester & Benjamin & Lisa & Molly & Nemo & Marlin & Mufasa & Lucky & Mina & Baghira & Ella 
+2024-10-09 10:08:50.305962 - Tierschutzverein Heilbronn: ++ Daniel 
+2024-10-09 10:08:51.924793 - Tierschutzverein Heilbronn: -- Doro 
+2024-10-09 13:59:55.093628 - Tierheim Karlsruhe: -- Django & Joonie 
+2024-10-09 13:59:57.547090 - Tierheim Ludwigshafen: ++ Misty 
+2024-10-09 20:07:01.369735 - Tierheim Ludwigshafen: -- Kitkat & Split 
+2024-10-10 23:06:25.492963 - Hamburger Tierschutzverein: -- Leo 
+2024-10-11 19:43:02.149420 - Hamburger Tierschutzverein: ++ Kimberly & Gizmo 
+2024-10-11 19:43:04.520573 - Hamburger Tierschutzverein: -- Luchsy 
+2024-10-11 19:43:05.954126 - Tierschutz Osnabrueck: ++ Flynn & Maicy & Anna & Ava & Mogli 
+2024-10-13 11:06:31.905580 - Tierheim Karlsruhe: ++ Balou & Cheggi 
+2024-10-13 15:11:19.810309 - Tierheim Koeln Dellbrueck: ++ Carlo & Paula 
+2024-10-13 17:56:17.628362 - Tierheim Koeln Dellbrueck: ++ Sushi 
+2024-10-14 12:48:08.091514 - Hamburger Tierschutzverein: ++ Tom & Jerry & Archie & Luna & Polli 
+2024-10-15 14:16:51.644466 - Tierheim Saarbruecken: ++ Krümel & Benny & Chili, Grisou & Holly 
+2024-10-16 11:40:11.825674 - Hamburger Tierschutzverein: ++ Daphne & Maja & Dexter 
+2024-10-16 16:50:54.045213 - Tierheim Karlsruhe: ++ Silia 
+2024-10-16 19:44:46.389233 - Tierschutzverein Reutlingen: ++ Helios & Doria & Bijou & Piccolo & Gwenna & Sada & Saam & Imaniund&Ismael & Bella & Nikita & Namika & Scharlott & Schiller & Tamy & Vito & Malte & Anna & Sissi & Naima & Linnea & Fred & Franz-Joseph & Frauke 
