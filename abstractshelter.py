@@ -3,7 +3,7 @@ import os
 import yaml
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+import traceback
 from abc import ABC, abstractmethod
 from utils import log_error
 
@@ -42,6 +42,8 @@ class AbstractShelter(ABC):
         name = name.replace("\t", "")
         name = name.replace(" und ", " & ")
         name = name.split("(")[0]
+        name = name.split(" - ")[0]
+        name = name.split(" – ")[0]
         name = re.split(re.compile("\sca\.?\s", re.IGNORECASE), name)[0]
         return name.strip().title()
 
@@ -67,5 +69,5 @@ class AbstractShelter(ABC):
                 "adopted_cats": adopted_cats,
             }
         except Exception as e:
-            log_error(e, self.name)
+            log_error(e, traceback.format_exc, self.name)
             return {"new_cats": {}, "adopted_cats": {}}

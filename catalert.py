@@ -2,6 +2,7 @@ import re
 import yaml
 import asyncio
 import requests
+import traceback
 from io import BytesIO
 from telegram import Bot
 from telegram.error import BadRequest
@@ -42,10 +43,8 @@ async def send_message(recipient, message):
 async def send_image(recipient, img, caption):
     try:
         await bot.send_photo(chat_id=recipient, photo=BytesIO(img), caption=caption)
-    except SSLWantReadError as e:
-        log_error(f"{recipient}: {e}", "SEND_IMAGE")
-    except CancelledError as e:
-        log_error(f"{recipient}: {e}", "SEND_IMAGE")
+    except (SSLWantReadError, CancelledError) as e:
+        log_error(e, traceback.format_exc(), src=f"send_image to {recipient}")
 
 
 async def run(MAX_PER_CHANGE=2, DRY_RUN=False):
@@ -69,7 +68,7 @@ async def run(MAX_PER_CHANGE=2, DRY_RUN=False):
                     else:
                         await send_message(recipient, message)
                 except BadRequest as e:
-                    log_error(f"ID INVALID {recipient}, {e}", "GLOBAL")
+                    log_error(e, traceback.format_exc(), src=f"send_update to {recipient} (likely invalid ID)")
 
 
     for shelter in SOURCES:
